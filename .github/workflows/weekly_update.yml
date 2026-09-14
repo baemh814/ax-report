@@ -1,0 +1,52 @@
+name: Weekly AX Trend Report Auto Update
+
+on:
+  schedule:
+    # 한국 시간(KST) 매주 월요일 06:00 정기 자동 실행
+    # (UTC 기준 일요일 21:00 = KST 월요일 06:00)
+    - cron: '0 21 * * 0'
+  workflow_dispatch: # GitHub 웹 UI에서 [Run workflow] 버튼으로 언제든 즉시 수동 실행 가능
+
+# 저장소 커밋 및 푸시 권한 부여
+permissions:
+  contents: write
+
+jobs:
+  auto-update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. 저장소 코드 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 2. Python 환경 설정 (3.11)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 3. 의존성 설치
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: 4. 주간 뉴스 수집 및 AI 요약 실행
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python update_news.py
+
+      - name: 5. 갱신된 news.json 저장소 자동 커밋 및 푸시
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          
+          # 변경사항이 있을 때만 커밋 및 푸시 진행
+          if git diff --staged --quiet; then
+            echo "[INFO] news.json에 변경사항이 없습니다."
+          else
+            git commit -m "Auto Update: 주간 AX 트렌드 리포트 정기 갱신 ($(date +'%Y-%m-%d'))"
+            git push
+            echo "[SUCCESS] 최신 news.json이 저장소에 성공적으로 푸시되었습니다."
+          fi

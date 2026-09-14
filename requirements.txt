@@ -1,0 +1,4 @@
+# AX Trend Report - Automated Weekly Pipeline Dependencies
+# Note: update_news.py uses Python standard libraries (urllib, xml, json, re),
+# but requests is listed for enhanced environment compatibility.
+requests>=2.31.0
