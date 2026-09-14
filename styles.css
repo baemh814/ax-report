@@ -1374,12 +1374,46 @@ body.newspaper-body {
 .card-time-info {
   display: flex;
   align-items: center;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 6px;
   font-family: var(--font-mono);
   font-size: 0.76rem;
   color: var(--text-muted);
   font-weight: 500;
 }
+
+.card-date-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--paper-tint, rgba(0, 0, 0, 0.04));
+  color: var(--text-primary);
+  border: 1px solid var(--border-default);
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.card-date-badge i {
+  color: var(--color-primary);
+  font-size: 0.72rem;
+}
+
+.card-meta-dot {
+  color: var(--text-muted);
+  opacity: 0.45;
+  font-size: 0.7rem;
+}
+
+.card-read-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  font-size: 0.74rem;
+}
+
 
 /* Card Main Headline & Content */
 .card-main {
@@ -1684,10 +1718,42 @@ body.newspaper-body {
 }
 
 .modal-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-mono);
   font-size: 0.8rem;
   color: var(--text-secondary);
 }
+
+.modal-date-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bg-canvas-subtle);
+  border: 1px solid var(--border-default);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.modal-date-chip i {
+  color: var(--color-primary);
+}
+
+.modal-meta-separator {
+  color: var(--text-muted);
+  opacity: 0.4;
+}
+
+.modal-read-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text-secondary);
+}
+
 
 .modal-domain-badge {
   font-family: var(--font-primary);
