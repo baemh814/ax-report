@@ -69,6 +69,41 @@
   },
   {
     "id": "news-003",
+    "title": "[베인앤드컴퍼니] AI 전환과 조직 변화 관리: \"두려움은 새로워도 해답은 명확하다\"",
+    "category": "workplace",
+    "categoryLabel": "💼 일하는 방식 변화",
+    "badgeClass": "workplace",
+    "sourceType": "consulting",
+    "sourceOrg": "베인앤드컴퍼니 (Bain)",
+    "reportType": "Bain & Company 코리아 인사이트",
+    "source": "Bain 글로벌 전략팀",
+    "originalUrl": "https://www.bain.com/ko/insights/ai-transformation-the-fears-are-new-the-answer-isnt/",
+    "time": "Bain 코리아 전략 인사이트",
+    "publishedDate": "2025.10 (공식 리포트)",
+    "timestamp": 1788500000000,
+    "readTime": "5분 소요",
+    "impactScore": 9.8,
+    "impactTier": "변화 관리 & 신뢰 구축",
+    "views": 8450,
+    "whyMatters": "\"자신을 대체할 로봇을 훈련시키고 있다고 두려워하는 구성원에게 혁신의 영감을 줄 수는 없다.\" 베인앤드컴퍼니가 기업 AX 도입 시 발생하는 임직원의 심리적 저항과 고용 불안을 극복하고, 매력적이고 쉬운 AI 경험을 통해 전사적 신뢰와 동기부여를 이끌어내는 변화 관리(Change Management) 해법 제시.",
+    "summary": "AI 전환의 최대 난제인 사내 불안감을 해소하고 구성원들이 자발적으로 AI를 활용해 일하는 방식을 바꾸도록 유도하는 조직 문화 설계 원칙을 실증했습니다.",
+    "fullSummary": [
+      "AI 도입을 '인력 감축 수단'이 아닌 '구성원의 고부가가치 역량 증폭기'로 명확히 포지셔닝하는 리더십 커뮤니케이션 수립.",
+      "실무자가 거부감 없이 접근할 수 있도록 일상 업무의 사소한 불편을 즉시 해결해 주는 직관적 UI/UX 우선 배포.",
+      "AI 도구를 적극 활용해 성과를 낸 직원을 가시적으로 보상하고 실패를 용인하는 심리적 안전감(Psychological Safety) 제도화."
+    ],
+    "actionPlan": "경영진은 일방적 툴 배포에 앞서 'AI 도입에 따른 고용 안정 가이드라인'을 천명하고, 작은 성공 체험(Quick Win)을 제공하는 변화 관리 프로그램을 병행할 것.",
+    "tags": [
+      "#베인앤드컴퍼니",
+      "#Bain",
+      "#변화관리",
+      "#조직문화",
+      "#신뢰구축",
+      "#일하는방식"
+    ]
+  },
+  {
+    "id": "news-004",
     "title": "[한경] 생산성 10배 시대… AI가 바꾼 인재의 조건과 직무 리스킬링",
     "category": "workplace",
     "categoryLabel": "💼 일하는 방식 변화",
@@ -102,7 +137,75 @@
     ]
   },
   {
-    "id": "news-004",
+    "id": "news-005",
+    "title": "[베인앤드컴퍼니] AI 혁명의 승자는 기술 아닌 조직… 구조 갖추고 학습 설계하라",
+    "category": "enterprise",
+    "categoryLabel": "🏢 기업·엔터프라이즈 AX",
+    "badgeClass": "enterprise",
+    "sourceType": "consulting",
+    "sourceOrg": "베인앤드컴퍼니 (Bain)",
+    "reportType": "Bain & Company 新경영 기획",
+    "source": "Bain 글로벌 테크놀로지 프랙티스",
+    "originalUrl": "https://www.bain.com/ko/insights/winning-the-ai-revolution-is-about-organization/",
+    "time": "Bain 新경영 공식 리포트",
+    "publishedDate": "2025.10 (공식 리포트)",
+    "timestamp": 1788500000000,
+    "readTime": "5분 소요",
+    "impactScore": 9.9,
+    "impactTier": "조직 구조 & 학습 설계",
+    "views": 9120,
+    "whyMatters": "베인앤드컴퍼니 한국 오피스의 정밀 진단. AI 혁명의 최종 승자는 가장 비싼 최신 모델을 구매한 기업이 아니라, 에이전트와 협업하도록 조직 구조를 바꾸고 전사적 학습 루프를 설계한 기업임을 실증한 최고 수준의 경영 리포트.",
+    "summary": "AI 도입 경쟁에서 앞서나가는 기업들은 모델의 파라미터 크기보다 조직 내 의사결정 권한 위임과 지속적인 학습 파이프라인 구축에 투자하고 있습니다.",
+    "fullSummary": [
+      "기술 인프라 투자에만 치중한 조직은 1년 내 PoC 정체기를 겪는 반면, 부서 간 장벽을 없애고 에이전트 중심 팀 구조를 짠 기업은 3배 빠른 ROI 회수.",
+      "임직원이 일상 업무에서 얻은 AI 활용 프랙티스를 즉시 사내 데이터 자산으로 환류시키는 조직적 학습(Organizational Learning) 메커니즘 필수.",
+      "경영진은 단순한 IT 예산 증액을 넘어 사업부별 KPI를 'AI 기반 생산성 증대'와 직결시켜야 함."
+    ],
+    "actionPlan": "사업 부문별 리더십은 부서 내 에이전트 협업 표준 프로세스를 설계하고, 업무 노하우가 사내 프롬프트 자산으로 자동 축적되도록 시스템을 정비할 것.",
+    "tags": [
+      "#베인앤드컴퍼니",
+      "#Bain",
+      "#조직구조",
+      "#학습설계",
+      "#엔터프라이즈AX"
+    ]
+  },
+  {
+    "id": "news-006",
+    "title": "[PwC 코리아] 2026년의 AI: AI 네이티브 기업 (The AI-Native Enterprise)",
+    "category": "enterprise",
+    "categoryLabel": "🏢 기업·엔터프라이즈 AX",
+    "badgeClass": "enterprise",
+    "sourceType": "consulting",
+    "sourceOrg": "PwC (삼일회계법인)",
+    "reportType": "PwC 글로벌 트렌드 한국어 보고서",
+    "source": "PwC 코리아 디지털·AI 컨설팅팀",
+    "originalUrl": "https://www.pwc.com/kr/ko/insights/global-trends/the-ai-native-enterprise.html",
+    "time": "PwC 2026 글로벌 트렌드",
+    "publishedDate": "2025.12 (글로벌 정례)",
+    "timestamp": 1788600000000,
+    "readTime": "5분 소요",
+    "impactScore": 9.8,
+    "impactTier": "2026 AI 네이티브 실행 전략",
+    "views": 8750,
+    "whyMatters": "삼일PwC가 분석한 '2026년 AI 네이티브 기업으로의 진화 로드맵'. AI가 단순한 지원 부서의 실험을 넘어 전략(Strategy), 운영(Operations), 거버넌스(Governance), 성장(Growth)의 4대 핵심 축으로 자리 잡아야 전사적 실행 체계로 확장될 수 있음을 구체적 프레임워크로 제시.",
+    "summary": "기업이 단편적 파일럿을 넘어 비즈니스 전반이 AI를 중심으로 구동되는 'AI 네이티브 엔터프라이즈'로 전환하기 위한 4대 실행 영역을 제시했습니다.",
+    "fullSummary": [
+      "전략: AI를 통한 신규 수익 창출과 차별화된 고객 가치 제안(Value Proposition) 재정립.",
+      "운영: 복합 업무를 종단 간 수행하는 에이전틱 워크플로우와 코어 기간계 시스템(ERP·CRM) 통합.",
+      "거버넌스 & 성장: 사내 데이터 보안, 규제 준수, 그리고 인적 자본의 지속 성장을 아우르는 통합 책임 체계 수립."
+    ],
+    "actionPlan": "경영기획 및 DX 총괄 부서는 자사의 현 AX 성숙도를 전략·운영·거버넌스 4대 축으로 자체 진단하고 2026 실행 로드맵을 확정할 것.",
+    "tags": [
+      "#PwC",
+      "#삼일PwC",
+      "#AI네이티브",
+      "#글로벌트렌드",
+      "#실행로드맵"
+    ]
+  },
+  {
+    "id": "news-007",
     "title": "[한경 심층] \"'AI 도입했다' 자족하면 안 돼… 'AI가 움직이는 회사'만 생존\" [2026 한경 AX 서밋]",
     "category": "enterprise",
     "categoryLabel": "🏢 기업·엔터프라이즈 AX",
@@ -136,7 +239,7 @@
     ]
   },
   {
-    "id": "news-005",
+    "id": "news-008",
     "title": "[ZDNet] SK AX, 머서와 기업 운영방식 'AI 네이티브' 재설계 맞손",
     "category": "enterprise",
     "categoryLabel": "🏢 기업·엔터프라이즈 AX",
@@ -171,7 +274,7 @@
     ]
   },
   {
-    "id": "news-006",
+    "id": "news-009",
     "title": "[ZDNet] SK AX도 오픈AI 동맹 합류… IT서비스 업계, '실행형 AX' 경쟁 가속",
     "category": "enterprise",
     "categoryLabel": "🏢 기업·엔터프라이즈 AX",
@@ -206,7 +309,7 @@
     ]
   },
   {
-    "id": "news-007",
+    "id": "news-010",
     "title": "[한경] KT, 다음·무신사·직방에 AI 심는다… '모두의 AI' 서비스 전략 발표",
     "category": "enterprise",
     "categoryLabel": "🏢 기업·엔터프라이즈 AX",
@@ -238,108 +341,6 @@
       "#무신사",
       "#직방",
       "#B2B플랫폼"
-    ]
-  },
-  {
-    "id": "news-008",
-    "title": "[매경] 韓 AI 스타트업 일본 진출 돕는다… KOSA·메가존클라우드 맞손",
-    "category": "enterprise",
-    "categoryLabel": "🏢 기업·엔터프라이즈 AX",
-    "badgeClass": "enterprise",
-    "sourceType": "media",
-    "sourceOrg": "매일경제신문",
-    "reportType": "매경 비즈니스 IT 리포트",
-    "source": "매일경제신문 IT부",
-    "originalUrl": "https://www.mk.co.kr/news/it/12151431",
-    "time": "2026.09.13 (일)",
-    "publishedDate": "2026.09.13",
-    "timestamp": 1789373040000,
-    "readTime": "4분 소요",
-    "impactScore": 9.4,
-    "impactTier": "글로벌 B2B AX 수출",
-    "views": 5890,
-    "whyMatters": "한국소프트웨어산업협회(KOSA)와 국내 최대 클라우드 MSP 메가존클라우드가 손잡고 디지털 전환 수요가 폭발하는 일본 B2B 엔터프라이즈 시장에 국내 특화 AX 솔루션을 대규모 공급하는 수출 파이프라인 구축.",
-    "summary": "국내 유망 B2B AI 솔루션 기업들의 일본 시장 안착을 위해 클라우드 인프라, 현지 엔터프라이즈 영업망, 현지화 기술 지원을 원스톱으로 제공하는 협력 체계가 공식 출범했습니다.",
-    "fullSummary": [
-      "일본 대기업들의 심각한 IT 인력 부족과 팩스·레거시 중심 시스템의 급격한 AI 클라우드 전환 수요 포착.",
-      "메가존클라우드의 현지 법인 네트워크와 KOSA 회원사들의 산업 특화 AI 솔루션(문서 자동화, ERP 연동 등) 패키징 수출.",
-      "단순 단품 소프트웨어 판매가 아닌 현지 맞춤형 B2B 컨설팅 및 관리형 서비스(MSP) 결합 모델 추진."
-    ],
-    "actionPlan": "국내 B2B AX 솔루션 개발사는 내수 시장의 한계를 넘어, IT 현대화 수요가 시급한 일본 등 아시아 엔터프라이즈 시장으로의 글로벌 진출 로드맵을 구체화할 것.",
-    "tags": [
-      "#매일경제",
-      "#메가존클라우드",
-      "#KOSA",
-      "#일본AX진출",
-      "#B2B수출"
-    ]
-  },
-  {
-    "id": "news-009",
-    "title": "[베인앤드컴퍼니] Technology Report: AI Leaders Are Extending Their Edge Through Agentic Orchestration",
-    "category": "agents",
-    "categoryLabel": "🤖 자율 에이전트",
-    "badgeClass": "agents",
-    "sourceType": "consulting",
-    "sourceOrg": "베인앤드컴퍼니 (Bain)",
-    "reportType": "Bain & Company 글로벌 테크놀로지 연례 보고서",
-    "source": "Bain Global Technology Desk",
-    "originalUrl": "https://www.bain.com/insights/topics/technology-report/",
-    "time": "Bain 글로벌 테크놀로지 리포트",
-    "publishedDate": "2025.10 (글로벌 정례)",
-    "timestamp": 1788500000000,
-    "readTime": "5분 소요",
-    "impactScore": 9.7,
-    "impactTier": "에이전트 오케스트레이션",
-    "views": 7620,
-    "whyMatters": "베인앤드컴퍼니 글로벌 리포트에 따르면, 단순 코파일럿 배포에 머무른 기업과 사내 도메인 룰셋 기반의 '멀티 에이전트 오케스트레이션'을 구축한 선도 기업 간의 생산성 격차가 2배 이상 벌어짐을 실증.",
-    "summary": "글로벌 AI 선도 기업들은 단일 프롬프트 처리를 넘어 여러 전문 에이전트가 협업해 종단 간 업무 프로세스를 완결하는 멀티 에이전트 아키텍처로 경쟁 우위를 독점하고 있습니다.",
-    "fullSummary": [
-      "고객 서비스, 금융 정산, 공급망 대사 등 복잡한 다단계 업무를 에이전트 군단이 자율 분업하여 처리.",
-      "에이전트 간 업무 위임(Delegation)과 에러 자가 복구 메커니즘을 안착시킨 조직의 운영 마진 대폭 개선.",
-      "단일 모델 의존보다 전문 도메인 룰셋과 사내 DB를 연결하는 에이전틱 오케스트레이션이 실질 ROI의 핵심."
-    ],
-    "actionPlan": "사내 IT 조직은 개별 업무 봇 개발을 중단하고, 에이전트 간 협업 프로토콜 및 권한 관리 중앙 허브를 우선 구축할 것.",
-    "tags": [
-      "#베인앤드컴퍼니",
-      "#Bain",
-      "#TechnologyReport",
-      "#에이전트오케스트레이션",
-      "#경쟁우위"
-    ]
-  },
-  {
-    "id": "news-010",
-    "title": "[PwC 글로벌] 2026 AI Business Predictions: Transformative Value & Agentic Workflows",
-    "category": "agents",
-    "categoryLabel": "🤖 자율 에이전트",
-    "badgeClass": "agents",
-    "sourceType": "consulting",
-    "sourceOrg": "PwC (프라이스워터하우스쿠퍼스)",
-    "reportType": "PwC 글로벌 테크놀로지 & AI 전략 예측",
-    "source": "PwC US AI & Analytics Practice",
-    "originalUrl": "https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html",
-    "time": "PwC 글로벌 전략 전망 리포트",
-    "publishedDate": "2025.12 (글로벌 정례)",
-    "timestamp": 1788600000000,
-    "readTime": "5분 소요",
-    "impactScore": 9.8,
-    "impactTier": "2026 에이전틱 비즈니스",
-    "views": 8120,
-    "whyMatters": "PwC의 2026 글로벌 AI 비즈니스 전망 보고서. 일회성 파일럿을 넘어 사내 엔드투엔드 프로세스를 직접 수행하는 '에이전틱 워크플로우(Agentic Workflows)'와 책임 있는 거버넌스가 기업의 실질적 가치 창출을 주도할 5대 핵심 동력으로 규명.",
-    "summary": "PwC는 2026년 기업 AI의 성패가 단순 모델 도입이 아닌 '비즈니스 프로세스의 에이전트화'와 '신뢰 가능한 책임 있는 혁신(Responsible AI)'에 달려 있다고 진단했습니다.",
-    "fullSummary": [
-      "단순 텍스트 생성 도구를 넘어 인간의 개입 없이도 다단계 의사결정을 지원하는 에이전틱 워크플로우 전면 부상.",
-      "경영진의 70% 이상이 AI 도입의 핵심 척도로 '사내 실무 생산성 지표와 직결된 정량적 비즈니스 가치' 요구.",
-      "규제 준수와 사내 데이터 보안을 내재화한 책임 있는 AI(Responsible AI) 프레임워크가 전사 확산의 필수 선결 조건."
-    ],
-    "actionPlan": "부서별 핵심 워크플로우 중 '데이터 수집-검토-초안작성-승인'으로 이어지는 프로세스를 지정해 에이전틱 파이프라인으로 재설계할 것.",
-    "tags": [
-      "#PwC",
-      "#AIPredictions",
-      "#에이전틱워크플로우",
-      "#ResponsibleAI",
-      "#비즈니스가치"
     ]
   },
   {
@@ -412,36 +413,36 @@
   },
   {
     "id": "news-013",
-    "title": "[한경] 퓨리오사AI, 싱가포르에 법인 설립… 차세대 NPU 글로벌 진출 본격화",
+    "title": "[구글 딥마인드] 차세대 실시간 멀티모달 자율 에이전트 '프로젝트 아스트라(Project Astra)' 기술 백서",
     "category": "frontier",
     "categoryLabel": "⚡ 프론티어 기술",
     "badgeClass": "frontier",
-    "sourceType": "media",
-    "sourceOrg": "한국경제신문",
-    "reportType": "한경 AI 반도체·하드웨어 분석",
-    "source": "한국경제신문 이영애 기자",
-    "originalUrl": "https://www.hankyung.com/article/2026091196801",
-    "time": "2026.09.11 (금)",
-    "publishedDate": "2026.09.11",
-    "timestamp": 1789205962000,
-    "readTime": "4분 소요",
-    "impactScore": 9.5,
-    "impactTier": "추론 TCO 절감 인프라",
-    "views": 6420,
-    "whyMatters": "엔터프라이즈 LLM 추론 비용(TCO)이 급증하는 상황에서, 고성능 저전력 2세대 NPU '레니게이드(RNGD)'를 앞세운 국내 대표 AI 팹리스가 싱가포르를 거점으로 글로벌 하이퍼스케일러 및 엔터프라이즈 데이터센터 공략에 돌입.",
-    "summary": "퓨리오사AI가 싱가포르에 글로벌 전진기지 법인을 설립하고 아시아·태평양 지역의 엔터프라이즈 AI 데이터센터 수주전에 본격 착수했습니다.",
+    "sourceType": "consulting",
+    "sourceOrg": "구글 딥마인드 (Google DeepMind)",
+    "reportType": "Google DeepMind 리서치 기술 백서",
+    "source": "Google DeepMind Research Lab",
+    "originalUrl": "https://deepmind.google/technologies/project-astra/",
+    "time": "Google DeepMind 공식 백서",
+    "publishedDate": "2025 (공식 기술 백서)",
+    "timestamp": 1789344000000,
+    "readTime": "5분 소요",
+    "impactScore": 9.8,
+    "impactTier": "실시간 비전 에이전트",
+    "views": 8920,
+    "whyMatters": "단순 텍스트 대화형 챗봇을 완전히 탈피해 연속 비디오 프레임과 실시간 오디오를 초저지연으로 처리하며 화면 공유와 복합 도구(Tool Use)를 자율 오케스트레이션하는 차세대 범용 어시스턴트 아키텍처 공개. 현장 엔지니어링 및 스마트 팩토리의 물리적 AX를 혁신할 핵심 기반.",
+    "summary": "구글 딥마인드가 공간 인지(Spatial Processing)와 스크린 실시간 해석 역량을 결합한 범용 AI 어시스턴트 프로토타입 '프로젝트 아스트라'의 실전 적용 기술 백서를 발표했습니다.",
     "fullSummary": [
-      "기존 GPU 대비 전력 효율과 가격 경쟁력이 뛰어난 국산 NPU의 글로벌 레퍼런스 확장.",
-      "동남아 금융·통신 대기업들의 온프레미스 AI 인프라 구축 수요를 겨냥한 맞춤형 풀스택 지원 체계 가동.",
-      "고비용 엔비디아 의존도를 낮추고 멀티 칩 아키텍처로 엔터프라이즈 운영 마진을 방어하려는 글로벌 기업들의 니즈와 결합."
+      "실시간 카메라 스트림 및 화면 공유 환경에서 시각적 맥락을 지연 없이 파악해 실시간 코드 디버깅 및 시스템 운영 가이드 제공.",
+      "인간의 음성 질문과 환경 변화를 동시에 인지하여 즉각적인 도구 호출(Tool Calling) 및 과업 완결.",
+      "모바일 디바이스와 엔터프라이즈 스마트 글래스 등에 탑재되어 현장 작업자의 물리적 AX(피지컬 AI)를 혁신할 핵심 기반 구축."
     ],
-    "actionPlan": "사내 프라이빗 AI 클라우드를 기획 중인 IT 인프라 부서는 GPU 단일 벤더 독점을 피하고, 고효율 NPU 기반의 추론 인프라 PoC를 병행 검토할 것.",
+    "actionPlan": "현장 엔지니어링 및 생산 공정을 보유한 기업은 텍스트 챗봇에 머물지 말고, 실시간 비디오 스트림을 해석하는 비전-언어 에이전트(Project Astra 류)의 파일럿 도입을 준비할 것.",
     "tags": [
-      "#한국경제",
-      "#퓨리오사AI",
-      "#NPU",
-      "#AI반도체",
-      "#데이터센터TCO"
+      "#구글딥마인드",
+      "#ProjectAstra",
+      "#멀티모달",
+      "#실시간비전에이전트",
+      "#범용AI"
     ]
   }
 ]
