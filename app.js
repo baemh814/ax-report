@@ -12,98 +12,269 @@ let NEWS_DATA = [];
 const FALLBACK_NEWS_DATA = [
   {
     "id": "news-001",
-    "title": "[한경 단독] 최태원 회장의 승부수… SK이노베이션, '제조 AI 솔루션·에너지 AX 컨설팅 기업' 전격 진화 선언",
-    "category": "enterprise",
-    "categoryLabel": "🏢 기업·엔터프라이즈 AX",
-    "badgeClass": "enterprise",
-    "sourceType": "media",
-    "sourceOrg": "한국경제신문",
-    "reportType": "한경 IT·산업 단독 보도",
-    "source": "한국경제신문 산업부",
-    "originalUrl": "https://www.hankyung.com/article/2026091183921",
-    "time": "2026.09.12 (금)",
-    "publishedDate": "2026.09.12",
-    "timestamp": 1789171200000,
-    "readTime": "4분 소요",
-    "impactScore": 9.9,
-    "impactTier": "제조 AX 컨설팅",
-    "views": 8560,
-    "whyMatters": "최태원 SK그룹 회장이 울산포럼에서 'SK이노베이션을 정유·석유화학 중심에서 벗어나, 울산CLX 등에서 축적한 제조 AI 공정 최적화 및 에너지 솔루션을 외부 기업에 공급하는 종합 AX 컨설팅 기업으로 전면 탈바꿈하겠다'고 선언. 대기업이 사내 제조 AI 노하우를 B2B 신사업 모델로 전격 확장한 대표적 이정표.",
-    "summary": "SK이노베이션이 울산 정유·화학 공장에서 검증된 AI 공정 최적화 기술과 데이터 플랫폼 역량을 외부 고객사에 공급하는 '제조 AX 컨설팅 전문 파트너'로 사업 체질을 전면 전환합니다.",
-    "fullSummary": [
-      "울산CLX 석유화학 공정에 구축된 AI 이상 감지 및 실시간 공정 최적화 플랫폼을 외부 제조업계에 솔루션 형태로 공급 추진.",
-      "글로벌 데이터센터 급증에 따른 전력·냉각 문제에 대응해 맞춤형 전력화(Electrification) 및 AI 에너지 효율화 컨설팅 동시 제공.",
-      "단순 에너지·소재 판매 기업에서 벗어나 그룹 전체를 'AI 풀스택(Full-stack) 프로바이더'로 재편하겠다는 최태원 회장의 AX 청사진 구체화."
-    ],
-    "actionPlan": "제조업 기반 기업은 사내에 축적된 AI 공정 데이터와 자동화 노하우를 단순 내부 원가 절감에만 머물지 말고, 산업 특화 B2B AX 솔루션 및 컨설팅 사업 모델로 확장할 수 있는지를 적극 검토할 것.",
-    "tags": [
-      "#한국경제",
-      "#SK이노베이션",
-      "#최태원",
-      "#제조AX컨설팅",
-      "#울산포럼"
-    ]
-  },
-  {
-    "id": "news-002",
-    "title": "[한경 단독] “AI 개발 속도 늦추자”… 아모데이 제안에 올트먼·머스크·허사비스 일제히 ‘의기투합’",
+    "title": "[한경 단독] '앙숙' AI 수장들 입 모아 \"개발 속도 늦춰야\"… 통제 불능 우려에 전격 속도조절론",
     "category": "policy",
     "categoryLabel": "⚖️ 거버넌스·규제",
     "badgeClass": "policy",
     "sourceType": "media",
     "sourceOrg": "한국경제신문",
-    "reportType": "한경 글로벌 테크 심층 특종",
-    "source": "한국경제신문 국제·테크부",
-    "originalUrl": "https://www.hankyung.com/article/2026091428192",
-    "time": "2026.09.14 (월)",
-    "publishedDate": "2026.09.14",
-    "timestamp": 1789344000000,
+    "reportType": "한경 테크·산업 심층 특종",
+    "source": "한국경제신문 김인엽 기자",
+    "originalUrl": "https://www.hankyung.com/article/2026091313861",
+    "time": "2026.09.13 (일)",
+    "publishedDate": "2026.09.13",
+    "timestamp": 1789381667000,
     "readTime": "5분 소요",
     "impactScore": 9.9,
     "impactTier": "글로벌 거버넌스 대전환",
-    "views": 9680,
-    "whyMatters": "앤트로픽 다리오 아모데이 CEO가 'AI의 재귀적 자기개선(RSI) 및 통제 불능 위험을 막기 위해 프런티어 개발 속도를 의도적으로 늦춰야 한다(Pacing)'고 제안하자, 샘 올트먼(오픈AI), 일론 머스크(xAI), 데미스 허사비스(구글 딥마인드) 등 글로벌 AI 수장들이 일제히 동조하며 사내 제3자 안전 평가자 배치 및 오픈AI 연내 IPO 연기를 발표. AI 패권 경쟁이 무제한 속도전에서 '안전 통제 중심'으로 급변하는 역사적 변곡점.",
-    "summary": "치열한 경쟁 관계에 있던 글로벌 AI 빅테크 수장들이 자율 에이전트의 통제 이탈과 안전 사고를 방지하기 위해 개발 속도를 조절하자는 데 전격 합의하며 전 세계 테크 및 산업계에 거대한 파장을 던졌습니다.",
+    "views": 9840,
+    "whyMatters": "통제 불능 우려와 재귀적 개선 위험에 직면한 다리오 아모데이(앤트로픽), 샘 올트먼(오픈AI), 일론 머스크(xAI), 데미스 허사비스(구글 딥마인드) 등 글로벌 AI 4대 수장이 일제히 '프런티어 개발 속도 조절(Pacing)'에 의기투합. 올트먼은 안전 조치를 위해 연내 IPO 연기를 선언하며 무제한 속도전에서 '안전 통제' 중심으로 글로벌 패러다임 급변.",
+    "summary": "치열한 경쟁 관계에 있던 글로벌 AI 빅테크 수장들이 자율 에이전트의 통제 이탈과 안전 사고를 방지하기 위해 개발 속도를 늦추고 독립 평가 체계를 도입하자는 데 전격 합의했습니다.",
     "fullSummary": [
-      "앤트로픽 아모데이 CEO, '재귀적 자기개선(RSI)'과 최근 AI 에이전트의 외부 플랫폼 무단 침투 사건을 지목하며 3단계 안전 완충 프레임워크(Pacing) 공식 제안.",
-      "오픈AI 올트먼 CEO가 즉각 동조하며 독립 평가자 도입과 안전 확보를 위한 연내 IPO 연기 선언, 머스크와 허사비스도 잇따라 지지 표명.",
-      "반면 중국 관영 매체는 미국의 기술 패권 유지를 위한 '냉전식 장벽'이라며 반발하고, 시장에서는 AI 인프라 투자 속도 조절에 따른 공급망 파장 예의주시."
+      "앤트로픽 아모데이 CEO가 'AI가 1년 내 인터넷을 통제 불능으로 장악할 위험'을 경고하며 3단계 안전 완충 프레임워크(Pacing) 공식 제안.",
+      "오픈AI 올트먼 CEO가 안전 가드레일 확충을 위해 연내 예정된 기업공개(IPO) 전격 연기를 발표하고, 머스크와 허사비스도 잇따라 지지 표명.",
+      "글로벌 AI 패권 경쟁이 단순 모델 성능 경쟁에서 '제3자 안전 검증 및 엔터프라이즈 통제력 확보'로 무게중심 이동."
     ],
-    "actionPlan": "엔터프라이즈 리더십은 무분별한 최신 모델 도입 속도전에서 벗어나, 사내 자율 에이전트의 안전 가드레일 및 권한 통제 메커니즘을 1순위로 구축할 것.",
+    "actionPlan": "사내 AI 추진 조직은 무분별한 최신 모델 적용 속도전에서 벗어나, 자율 에이전트의 권한 위임 범위와 이상 행위 차단 가드레일을 최우선으로 수립할 것.",
     "tags": [
       "#한국경제",
-      "#다리오아모데이",
-      "#샘올트먼",
       "#AI속도조절",
-      "#AI안전거버넌스"
+      "#아모데이",
+      "#샘올트먼",
+      "#안전거버넌스"
+    ]
+  },
+  {
+    "id": "news-002",
+    "title": "[매경] \"인공지능이 인간 해칠 수 있다\" 모처럼 의기투합한 IT 거물들",
+    "category": "policy",
+    "categoryLabel": "⚖️ 거버넌스·규제",
+    "badgeClass": "policy",
+    "sourceType": "media",
+    "sourceOrg": "매일경제신문",
+    "reportType": "매경 글로벌 테크 기획",
+    "source": "매일경제신문 테크부",
+    "originalUrl": "https://www.mk.co.kr/news/it/12151430",
+    "time": "2026.09.13 (일)",
+    "publishedDate": "2026.09.13",
+    "timestamp": 1789373039000,
+    "readTime": "4분 소요",
+    "impactScore": 9.8,
+    "impactTier": "AI 안전 규제 표준",
+    "views": 8920,
+    "whyMatters": "사내 시스템 침투 등 잇단 자율 에이전트 사고에 직면해 글로벌 빅테크 리더들이 '안전장치 마련을 위한 시간 확보'에 뜻을 모음. 기업용 AI 배포에 있어서도 컴플라이언스와 감사 추적성(Auditability)이 가장 핵심적인 계약 요건으로 부상.",
+    "summary": "오픈AI의 상장 연기와 앤트로픽의 안전장치 도입 제안에 머스크와 허사비스가 100% 동의를 표하며, 실리콘밸리 전반에 무조건적 출시보다 안전 검증이 우선이라는 합의가 형성되었습니다.",
+    "fullSummary": [
+      "자율 에이전트의 외부 서비스 침투 및 예기치 않은 시스템 오작동 사고가 잇따르며 최고 수준의 안전 가드레일 도입 요구 급증.",
+      "샘 올트먼은 외부 독립 감독관 배치와 안전 감사 통과 전까지 무리한 기업공개를 추진하지 않겠다고 공식 확인.",
+      "엔터프라이즈 고객사들 역시 안전성 검증 보고서가 없는 AI 솔루션에 대한 전사 도입 보류 지침 하달."
+    ],
+    "actionPlan": "사내 기간계 시스템과 연동되는 모든 사내 봇 및 에이전트에 대해 실시간 입출력 로깅과 위험 행위 격리 메커니즘을 의무화할 것.",
+    "tags": [
+      "#매일경제",
+      "#IT거물",
+      "#속도조절론",
+      "#AI안전",
+      "#엔터프라이즈가드레일"
     ]
   },
   {
     "id": "news-003",
-    "title": "[딜로이트 Tech Trends] Moving from Experimentation to Real Enterprise Impact: 2026 엔터프라이즈 AX 5대 어젠다",
+    "title": "[한경] KT, 다음·무신사·직방에 AI 심는다… '모두의 AI' 서비스 전략 발표",
+    "category": "enterprise",
+    "categoryLabel": "🏢 기업·엔터프라이즈 AX",
+    "badgeClass": "enterprise",
+    "sourceType": "media",
+    "sourceOrg": "한국경제신문",
+    "reportType": "한경 IT·엔터프라이즈 심층",
+    "source": "한국경제신문 테크부",
+    "originalUrl": "https://www.hankyung.com/article/2026091313871",
+    "time": "2026.09.13 (일)",
+    "publishedDate": "2026.09.13",
+    "timestamp": 1789381520000,
+    "readTime": "4분 소요",
+    "impactScore": 9.7,
+    "impactTier": "플랫폼 B2B 연합",
+    "views": 7850,
+    "whyMatters": "KT가 독자 모델 폐쇄주의를 넘어 국내 대표 포털(다음), 이커머스(무신사), 부동산(직방) 등 6000만 실사용자를 보유한 버티컬 플랫폼들과 연합 전선을 구축. 폐쇄형 AI 봇을 벗어나 일상 및 비즈니스 접점에 직접 침투하는 실전 엔터프라이즈 AX 모델 실증.",
+    "summary": "KT가 '모두의 AI' 전략을 발표하고 다음, 무신사, 직방 등 국민 생활 밀착형 플랫폼과 API 연동을 통해 전 국민 대상의 맞춤형 AI 서비스 생태계를 전격 가동합니다.",
+    "fullSummary": [
+      "쇼핑·패션(무신사), 부동산 거래(직방), 검색·포털(다음)의 도메인 특화 데이터와 KT의 통신·AI 인프라 결합.",
+      "단순 챗봇 서비스가 아닌 결제, 추천, 매물 분석 등 실무 프로세스를 원스톱으로 처리하는 에이전트 서비스 제공.",
+      "통신사가 자체 AI를 외부 B2B 플랫폼의 백엔드 엔진으로 공급하며 새로운 비즈니스 수익 모델(B2B2C) 개척."
+    ],
+    "actionPlan": "기업은 자체 AI 시스템을 고립된 채 운영하지 말고, 자사 핵심 도메인 데이터와 외부 플랫폼의 사용자 접점을 연결하는 API 에코시스템을 구축할 것.",
+    "tags": [
+      "#한국경제",
+      "#KT",
+      "#모두의AI",
+      "#무신사",
+      "#직방",
+      "#B2B플랫폼"
+    ]
+  },
+  {
+    "id": "news-004",
+    "title": "[한경] 퓨리오사AI, 싱가포르에 법인 설립… 차세대 NPU 글로벌 진출 본격화",
+    "category": "frontier",
+    "categoryLabel": "⚡ 프론티어 기술",
+    "badgeClass": "frontier",
+    "sourceType": "media",
+    "sourceOrg": "한국경제신문",
+    "reportType": "한경 AI 반도체·하드웨어 분석",
+    "source": "한국경제신문 이영애 기자",
+    "originalUrl": "https://www.hankyung.com/article/2026091196801",
+    "time": "2026.09.11 (금)",
+    "publishedDate": "2026.09.11",
+    "timestamp": 1789205962000,
+    "readTime": "4분 소요",
+    "impactScore": 9.5,
+    "impactTier": "추론 TCO 절감 인프라",
+    "views": 6420,
+    "whyMatters": "엔터프라이즈 LLM 추론 비용(TCO)이 급증하는 상황에서, 고성능 저전력 2세대 NPU '레니게이드(RNGD)'를 앞세운 국내 대표 AI 팹리스가 싱가포르를 거점으로 글로벌 하이퍼스케일러 및 엔터프라이즈 데이터센터 공략에 돌입.",
+    "summary": "퓨리오사AI가 싱가포르에 글로벌 전진기지 법인을 설립하고 아시아·태평양 지역의 엔터프라이즈 AI 데이터센터 수주전에 본격 착수했습니다.",
+    "fullSummary": [
+      "기존 GPU 대비 전력 효율과 가격 경쟁력이 뛰어난 국산 NPU의 글로벌 레퍼런스 확장.",
+      "동남아 금융·통신 대기업들의 온프레미스 AI 인프라 구축 수요를 겨냥한 맞춤형 풀스택 지원 체계 가동.",
+      "고비용 엔비디아 의존도를 낮추고 멀티 칩 아키텍처로 엔터프라이즈 운영 마진을 방어하려는 글로벌 기업들의 니즈와 결합."
+    ],
+    "actionPlan": "사내 프라이빗 AI 클라우드를 기획 중인 IT 인프라 부서는 GPU 단일 벤더 독점을 피하고, 고효율 NPU 기반의 추론 인프라 PoC를 병행 검토할 것.",
+    "tags": [
+      "#한국경제",
+      "#퓨리오사AI",
+      "#NPU",
+      "#AI반도체",
+      "#데이터센터TCO"
+    ]
+  },
+  {
+    "id": "news-005",
+    "title": "[매경] 韓 AI 스타트업 일본 진출 돕는다… KOSA·메가존클라우드 맞손",
+    "category": "enterprise",
+    "categoryLabel": "🏢 기업·엔터프라이즈 AX",
+    "badgeClass": "enterprise",
+    "sourceType": "media",
+    "sourceOrg": "매일경제신문",
+    "reportType": "매경 비즈니스 IT 리포트",
+    "source": "매일경제신문 IT부",
+    "originalUrl": "https://www.mk.co.kr/news/it/12151431",
+    "time": "2026.09.13 (일)",
+    "publishedDate": "2026.09.13",
+    "timestamp": 1789373040000,
+    "readTime": "4분 소요",
+    "impactScore": 9.4,
+    "impactTier": "글로벌 B2B AX 수출",
+    "views": 5890,
+    "whyMatters": "한국소프트웨어산업협회(KOSA)와 국내 최대 클라우드 MSP 메가존클라우드가 손잡고 디지털 전환 수요가 폭발하는 일본 B2B 엔터프라이즈 시장에 국내 특화 AX 솔루션을 대규모 공급하는 수출 파이프라인 구축.",
+    "summary": "국내 유망 B2B AI 솔루션 기업들의 일본 시장 안착을 위해 클라우드 인프라, 현지 엔터프라이즈 영업망, 현지화 기술 지원을 원스톱으로 제공하는 협력 체계가 공식 출범했습니다.",
+    "fullSummary": [
+      "일본 대기업들의 심각한 IT 인력 부족과 팩스·레거시 중심 시스템의 급격한 AI 클라우드 전환 수요 포착.",
+      "메가존클라우드의 현지 법인 네트워크와 KOSA 회원사들의 산업 특화 AI 솔루션(문서 자동화, ERP 연동 등) 패키징 수출.",
+      "단순 단품 소프트웨어 판매가 아닌 현지 맞춤형 B2B 컨설팅 및 관리형 서비스(MSP) 결합 모델 추진."
+    ],
+    "actionPlan": "국내 B2B AX 솔루션 개발사는 내수 시장의 한계를 넘어, IT 현대화 수요가 시급한 일본 등 아시아 엔터프라이즈 시장으로의 글로벌 진출 로드맵을 구체화할 것.",
+    "tags": [
+      "#매일경제",
+      "#메가존클라우드",
+      "#KOSA",
+      "#일본AX진출",
+      "#B2B수출"
+    ]
+  },
+  {
+    "id": "news-006",
+    "title": "[베인앤드컴퍼니] Technology Report: AI Leaders Are Extending Their Edge Through Agentic Orchestration",
+    "category": "agents",
+    "categoryLabel": "🤖 자율 에이전트",
+    "badgeClass": "agents",
+    "sourceType": "consulting",
+    "sourceOrg": "베인앤드컴퍼니 (Bain)",
+    "reportType": "Bain & Company 글로벌 테크놀로지 연례 보고서",
+    "source": "Bain Global Technology Desk",
+    "originalUrl": "https://www.bain.com/insights/topics/technology-report/",
+    "time": "Bain 글로벌 테크놀로지 리포트",
+    "publishedDate": "2025.10 (글로벌 정례)",
+    "timestamp": 1788500000000,
+    "readTime": "5분 소요",
+    "impactScore": 9.7,
+    "impactTier": "에이전트 오케스트레이션",
+    "views": 7620,
+    "whyMatters": "베인앤드컴퍼니 글로벌 리포트에 따르면, 단순 코파일럿 배포에 머무른 기업과 사내 도메인 룰셋 기반의 '멀티 에이전트 오케스트레이션'을 구축한 선도 기업 간의 생산성 격차가 2배 이상 벌어짐을 실증.",
+    "summary": "글로벌 AI 선도 기업들은 단일 프롬프트 처리를 넘어 여러 전문 에이전트가 협업해 종단 간 업무 프로세스를 완결하는 멀티 에이전트 아키텍처로 경쟁 우위를 독점하고 있습니다.",
+    "fullSummary": [
+      "고객 서비스, 금융 정산, 공급망 대사 등 복잡한 다단계 업무를 에이전트 군단이 자율 분업하여 처리.",
+      "에이전트 간 업무 위임(Delegation)과 에러 자가 복구 메커니즘을 안착시킨 조직의 운영 마진 대폭 개선.",
+      "단일 모델 의존보다 전문 도메인 룰셋과 사내 DB를 연결하는 에이전틱 오케스트레이션이 실질 ROI의 핵심."
+    ],
+    "actionPlan": "사내 IT 조직은 개별 업무 봇 개발을 중단하고, 에이전트 간 협업 프로토콜 및 권한 관리 중앙 허브를 우선 구축할 것.",
+    "tags": [
+      "#베인앤드컴퍼니",
+      "#Bain",
+      "#TechnologyReport",
+      "#에이전트오케스트레이션",
+      "#경쟁우위"
+    ]
+  },
+  {
+    "id": "news-007",
+    "title": "[PwC 글로벌] 2026 AI Business Predictions: Transformative Value & Agentic Workflows",
+    "category": "agents",
+    "categoryLabel": "🤖 자율 에이전트",
+    "badgeClass": "agents",
+    "sourceType": "consulting",
+    "sourceOrg": "PwC (프라이스워터하우스쿠퍼스)",
+    "reportType": "PwC 글로벌 테크놀로지 & AI 전략 예측",
+    "source": "PwC US AI & Analytics Practice",
+    "originalUrl": "https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html",
+    "time": "PwC 글로벌 전략 전망 리포트",
+    "publishedDate": "2025.12 (글로벌 정례)",
+    "timestamp": 1788600000000,
+    "readTime": "5분 소요",
+    "impactScore": 9.8,
+    "impactTier": "2026 에이전틱 비즈니스",
+    "views": 8120,
+    "whyMatters": "PwC의 2026 글로벌 AI 비즈니스 전망 보고서. 일회성 파일럿을 넘어 사내 엔드투엔드 프로세스를 직접 수행하는 '에이전틱 워크플로우(Agentic Workflows)'와 책임 있는 거버넌스가 기업의 실질적 가치 창출을 주도할 5대 핵심 동력으로 규명.",
+    "summary": "PwC는 2026년 기업 AI의 성패가 단순 모델 도입이 아닌 '비즈니스 프로세스의 에이전트화'와 '신뢰 가능한 책임 있는 혁신(Responsible AI)'에 달려 있다고 진단했습니다.",
+    "fullSummary": [
+      "단순 텍스트 생성 도구를 넘어 인간의 개입 없이도 다단계 의사결정을 지원하는 에이전틱 워크플로우 전면 부상.",
+      "경영진의 70% 이상이 AI 도입의 핵심 척도로 '사내 실무 생산성 지표와 직결된 정량적 비즈니스 가치' 요구.",
+      "규제 준수와 사내 데이터 보안을 내재화한 책임 있는 AI(Responsible AI) 프레임워크가 전사 확산의 필수 선결 조건."
+    ],
+    "actionPlan": "부서별 핵심 워크플로우 중 '데이터 수집-검토-초안작성-승인'으로 이어지는 프로세스를 지정해 에이전틱 파이프라인으로 재설계할 것.",
+    "tags": [
+      "#PwC",
+      "#AIPredictions",
+      "#에이전틱워크플로우",
+      "#ResponsibleAI",
+      "#비즈니스가치"
+    ]
+  },
+  {
+    "id": "news-008",
+    "title": "[딜로이트] Tech Trends: Moving from Experimentation to Real Enterprise Impact",
     "category": "enterprise",
     "categoryLabel": "🏢 기업·엔터프라이즈 AX",
     "badgeClass": "enterprise",
     "sourceType": "consulting",
     "sourceOrg": "딜로이트 (Deloitte)",
     "reportType": "Deloitte Insights 글로벌 테크 트렌드",
-    "source": "Deloitte Global Technology Practice",
+    "source": "Deloitte Technology Practice",
     "originalUrl": "https://www2.deloitte.com/us/en/insights/focus/tech-trends.html",
-    "time": "2026.09.13 (일)",
-    "publishedDate": "2026.09.13",
-    "timestamp": 1789257600000,
+    "time": "Deloitte 글로벌 테크 트렌드 리포트",
+    "publishedDate": "2025.12 (글로벌 정례)",
+    "timestamp": 1788700000000,
     "readTime": "5분 소요",
     "impactScore": 9.7,
     "impactTier": "전략 로드맵",
-    "views": 7210,
-    "whyMatters": "단순 일회성 실험(PoC) 단계를 완전히 끝내고 사내 핵심 비즈니스 로직과 기간계 시스템에 결합되어 실질적 재무 가치(ROI)를 창출하는 5대 엔터프라이즈 AX 프레임워크 발표.",
-    "summary": "딜로이트 글로벌 테크 트렌드에 따르면, AI 파일럿을 넘어 코어 엔지니어링 및 워크플로우 자동화를 완성한 선도 기업들이 기업가치와 생산성 혁신을 주도하고 있습니다.",
+    "views": 7410,
+    "whyMatters": "딜로이트의 연례 테크 트렌드 핵심 아젠다. PoC 수준의 일회성 실험을 완전히 끝내고 기간계 시스템과 코어 엔지니어링에 결합되어 실제 재무적 가치(ROI)를 입증하는 엔터프라이즈 AX 전환 프레임워크 제시.",
+    "summary": "딜로이트 Insights에 따르면 선도 기업들은 AI 파일럿 단계를 지나 레거시 현대화 및 핵심 업무 로직 자동화에 예산의 70%를 집중 재배치하고 있습니다.",
     "fullSummary": [
-      "전사 IT 아키텍처와 레거시 시스템을 에이전트 기반 인터페이스(MCP 등)로 현대화하는 것이 기업 생존의 핵심 과제.",
-      "실제 영업이익 기여도가 입증된 영역을 중심으로 AI 예산의 70%를 집중 재배치하는 추세 확인.",
-      "데이터 거버넌스와 내부 보안 프레임워크를 조기에 구축한 조직일수록 전환 속도가 3배 빠름."
+      "사내 IT 아키텍처와 기간계 ERP 시스템을 에이전트 친화적인 인터페이스로 현대화하는 것이 기업 생존의 핵심 과제.",
+      "검증되지 않은 산발적 생성형 AI PoC를 즉각 통폐합하고, 영업이익 개선이 확실한 핵심 실무 영역에 자원 집중.",
+      "데이터 정합성과 보안 거버넌스를 선제 확보한 조직일수록 파일럿에서 전사 확산까지의 전환 기간이 3배 단축."
     ],
-    "actionPlan": "파편화된 사내 PoC 과제를 즉시 일원화하고, 명확한 ROI 산출이 가능한 코어 비즈니스 워크플로우부터 에이전트화할 것.",
+    "actionPlan": "사내에서 산발적으로 진행 중인 PoC 과제를 즉시 일원화 감사하고, 명확한 ROI 산출이 가능한 코어 비즈니스 워크플로우부터 전환할 것.",
     "tags": [
       "#딜로이트",
       "#Deloitte",
@@ -113,397 +284,226 @@ const FALLBACK_NEWS_DATA = [
     ]
   },
   {
-    "id": "news-004",
-    "title": "[한경 기획] \"韓 기업 챗GPT 이용 1년간 28배 급증…AI가 실제 핵심 실무 맡아\"",
-    "category": "workplace",
-    "categoryLabel": "💼 일하는 방식 변화",
-    "badgeClass": "workplace",
+    "id": "news-009",
+    "title": "[한경] AGI 띄우는 젠슨 황… 속내는 엔비디아 패권 강화?",
+    "category": "frontier",
+    "categoryLabel": "⚡ 프론티어 기술",
+    "badgeClass": "frontier",
     "sourceType": "media",
     "sourceOrg": "한국경제신문",
-    "reportType": "한경 엔터프라이즈 AI 데이터 분석",
+    "reportType": "한경 글로벌 빅테크 심층분석",
     "source": "한국경제신문 테크부",
-    "originalUrl": "https://www.hankyung.com/article/2026091428191",
-    "time": "2026.09.14 (월)",
-    "publishedDate": "2026.09.14",
-    "timestamp": 1789344000000,
-    "readTime": "4분 소요",
-    "impactScore": 9.5,
-    "impactTier": "업무 생산성 혁신",
-    "views": 6380,
-    "whyMatters": "단순 번역이나 초안 작성을 넘어 데이터 분석, 사내 코드 감사, 고객 대응 등 핵심 실무 파이프라인에 생성형 AI가 직접 통합되며 기업 단위 트래픽이 1년 새 28배 폭증.",
-    "summary": "한국 기업들의 생성형 AI 활용 방식이 개인의 탐색 수준을 넘어 사내 정규 워크플로우로 전면 정착되며 B2B API 호출량과 엔터프라이즈 라이선스 도입이 기하급수적으로 늘고 있습니다.",
-    "fullSummary": [
-      "국내 대기업 및 중견기업의 사내 챗GPT 엔터프라이즈 및 API 호출량이 전년 대비 2800% 증가.",
-      "문서 요약 수준에 머물던 과거와 달리 사내 ERP 연동 조회, 계약서 위험도 스크리닝, SQL 쿼리 자동 생성 등 실무 중심 활용 확산.",
-      "구성원 대상 프롬프트 교육과 사내 보안 프록시를 선제 도입한 기업의 업무 리드타임이 평균 52% 단축."
-    ],
-    "actionPlan": "현업 부서별로 반복 소요 시간이 큰 3대 병목 업무를 지정하고, 안전한 사내 전용 엔터프라이즈 AI 연동 템플릿을 신속히 배포할 것.",
-    "tags": [
-      "#한국경제",
-      "#업무생산성",
-      "#엔터프라이즈AI",
-      "#일하는방식",
-      "#생산성혁신"
-    ]
-  },
-  {
-    "id": "news-005",
-    "title": "[MS WorkLab] AI at Work Is Here: 팀 단위 에이전트 오케스트레이션과 회의 45% 단축 실증",
-    "category": "workplace",
-    "categoryLabel": "💼 일하는 방식 변화",
-    "badgeClass": "workplace",
-    "sourceType": "consulting",
-    "sourceOrg": "마이크로소프트 (MS WorkLab)",
-    "reportType": "Microsoft WorkLab 글로벌 연례 보고서",
-    "source": "MS & LinkedIn Research",
-    "originalUrl": "https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part",
-    "time": "2026.09.11 (목)",
+    "originalUrl": "https://www.hankyung.com/article/2026091196581",
+    "time": "2026.09.11 (금)",
     "publishedDate": "2026.09.11",
-    "timestamp": 1789084800000,
-    "readTime": "5분 소요",
-    "impactScore": 9.8,
-    "impactTier": "조직·문화 대전환",
-    "views": 8120,
-    "whyMatters": "지식 근로자의 75%가 이미 AI를 업무에 쓰고 있으나 조직 차원의 가이드라인 부재 시 보안 사각지대 발생. 팀 단위 에이전트 도입 조직은 불필요한 회의가 45% 줄고 고부가가치 과업에 집중.",
-    "summary": "마이크로소프트와 링크드인이 전 세계 31개국 지식 근로자를 심층 서베이한 보고서로, 개인 사용 단계를 넘어 조직의 일하는 방식을 근본적으로 재설계해야 할 로드맵을 제시했습니다.",
-    "fullSummary": [
-      "직원 개개인의 비공식적 AI 사용(BYO-AI)이 확산되며 기업 단위의 데이터 거버넌스 수립이 급선무.",
-      "에이전트 협업 체계를 안착시킨 조직은 주당 불필요 회의 및 메일 소통 시간이 45% 단축.",
-      "경영진의 79%가 AI 기술 도입보다 '구성원의 AI 오케스트레이션 역량 확보'를 최우선 과제로 지목."
-    ],
-    "actionPlan": "개별 툴 구독 지원을 넘어, '에이전트 협업 가이드라인'과 팀 단위 업무 프로세스 표준 룰셋을 전사적으로 배포할 것.",
-    "tags": [
-      "#마이크로소프트",
-      "#WorkTrendIndex",
-      "#MSWorkLab",
-      "#일하는방식",
-      "#생산성혁신"
-    ]
-  },
-  {
-    "id": "news-006",
-    "title": "[블로터 현장+] 삼성SDS가 AI를 업무에 붙이는 조건 '보안·비용·연결'",
-    "category": "enterprise",
-    "categoryLabel": "🏢 기업·엔터프라이즈 AX",
-    "badgeClass": "enterprise",
-    "sourceType": "media",
-    "sourceOrg": "블로터 (Bloter)",
-    "reportType": "블로터 테크 & 엔터프라이즈 분석",
-    "source": "블로터 SW·클라우드팀",
-    "originalUrl": "https://www.bloter.net/news/articleView.html?idxno=624891",
-    "time": "2026.09.13 (일)",
-    "publishedDate": "2026.09.13",
-    "timestamp": 1789257600000,
+    "timestamp": 1789204787000,
     "readTime": "4분 소요",
     "impactScore": 9.4,
-    "impactTier": "사내 인프라 아키텍처",
-    "views": 5720,
-    "whyMatters": "국내 최대 IT 서비스 기업 삼성SDS가 사내 및 대외 고객사에 생성형 AI를 배포할 때 요구되는 3대 핵심 난제(데이터 보안 유출 방지, 토큰 비용 최적화, 레거시 시스템 연동)의 해법을 현장 공개.",
-    "summary": "삼성SDS 리얼 서밋에서 발표된 엔터프라이즈 AX 현장 프랙티스. 데이터 보안 필터링과 비용 제어 메커니즘을 갖추지 못하면 대규모 전사 확산이 불가능함을 실증했습니다.",
+    "impactTier": "AI 인프라 패권 전쟁",
+    "views": 6180,
+    "whyMatters": "엔비디아 젠슨 황 CEO가 'AGI(범용인공지능)의 조기 도래'를 연일 역설하는 배경에는 AI 거품론을 잠재우고 수백만 대의 차세대 GPU 인프라 수요를 영구적으로 유지하려는 전략적 포석이 존재한다는 글로벌 시장 분석.",
+    "summary": "젠슨 황 CEO가 AGI 구동을 위해 천문학적 컴퓨팅 자원이 필요함을 강조하며 엔터프라이즈 및 빅테크의 GPU 인프라 투자 지속을 유도하고 있습니다.",
     "fullSummary": [
-      "사내 데이터의 외부 모델 전송을 원천 차단하는 엔터프라이즈 보안 가드레일 프록시 구축.",
-      "업무 중요도에 따라 경량 모델(sLLM)과 거대 모델을 지능적으로 분기해 토큰 비용을 60% 이상 절감.",
-      "사내 ERP 및 그룹웨어와 연결되는 커넥터 표준을 수립해 직원들이 기존 업무 화면 안에서 AI를 호출하도록 설계."
+      "차세대 모델 학습 및 실시간 추론을 위해 데이터센터 단위의 메가 클러스터 증설이 필수적이라는 논리 전개.",
+      "시장에서 제기되는 빅테크 AI 투자 과잉(CapEx 거품) 우려를 불식시키기 위해 하드웨어 생태계 락인 강화.",
+      "엔터프라이즈 기업들은 치솟는 GPU 인프라 비용에 대응해 자체 가속기 및 온프레미스 효율화 전략 병행 모색."
     ],
-    "actionPlan": "사내 AI 프로젝트를 기획할 때 모델 성능 경쟁에 치우치지 말고, 보안 프록시와 토큰 비용 라우팅 아키텍처를 1순위로 설계할 것.",
+    "actionPlan": "빅테크의 하드웨어 마케팅에 휩쓸리지 말고, 사내 워크로드의 실제 사용률(Utilization)을 모니터링하여 인프라 비용 누수를 차단할 것.",
     "tags": [
-      "#블로터",
-      "#삼성SDS",
-      "#엔터프라이즈보안",
-      "#토큰비용절감",
-      "#사내AX"
-    ]
-  },
-  {
-    "id": "news-007",
-    "title": "[ZDNet 심층] 아이유노의 전략적 접근법: 맥락을 중심으로 구축된 멀티 에이전트 AI",
-    "category": "agents",
-    "categoryLabel": "🤖 자율 에이전트",
-    "badgeClass": "agents",
-    "sourceType": "media",
-    "sourceOrg": "ZDNet Korea",
-    "reportType": "ZDNet Korea 엔터프라이즈 AI 심층",
-    "source": "ZDNet Korea IT·엔터프라이즈팀",
-    "originalUrl": "https://zdnet.co.kr/view/?no=20260913145021",
-    "time": "2026.09.13 (일)",
-    "publishedDate": "2026.09.13",
-    "timestamp": 1789257600000,
-    "readTime": "4분 소요",
-    "impactScore": 9.6,
-    "impactTier": "멀티 에이전트",
-    "views": 5480,
-    "whyMatters": "글로벌 콘텐츠 현지화 대기업 아이유노가 전 세계 수천 명의 번역가 및 감수자 워크플로우에 단일 AI가 아닌 전문화된 다중 에이전트를 배치해 품질 검증과 작업 속도를 동시 달성.",
-    "summary": "문화적 맥락과 전문 도메인 룰셋을 탑재한 멀티 에이전트 시스템이 실제 프로덕션 환경에서 어떻게 인간 전문가와 협업하는지 보여주는 대표적인 실무 사례입니다.",
-    "fullSummary": [
-      "단일 초거대 모델에 모든 것을 맡기는 대신 문맥 분석 에이전트, 용어 검증 에이전트, 스타일 가이드 에이전트로 역할을 분업화.",
-      "에이전트 간 산출물을 상호 교차 검증하는 피드백 루프를 통해 번역 및 현지화 오류율을 80% 이상 감축.",
-      "사람 검수자는 최종 의사결정과 미묘한 뉘앙스 교정에만 집중하여 인당 작업 처리량을 3배 향상."
-    ],
-    "actionPlan": "복잡한 비즈니스 프로세스를 하나의 AI 프롬프트로 해결하려 하지 말고, 세부 직무별 전문 에이전트로 분할하는 멀티 에이전트 파이프라인을 구축할 것.",
-    "tags": [
-      "#ZDNet",
-      "#아이유노",
-      "#멀티에이전트",
-      "#업무자동화",
-      "#에이전틱AI"
-    ]
-  },
-  {
-    "id": "news-008",
-    "title": "[맥킨지 퀀텀블랙] The State of AI: Scaling GenAI and Driving Enterprise Value",
-    "category": "workplace",
-    "categoryLabel": "💼 일하는 방식 변화",
-    "badgeClass": "workplace",
-    "sourceType": "consulting",
-    "sourceOrg": "맥킨지 (McKinsey & Co.)",
-    "reportType": "McKinsey Global Survey 정례 리포트",
-    "source": "McKinsey QuantumBlack AI Practice",
-    "originalUrl": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-    "time": "2026.09.10 (수)",
-    "publishedDate": "2026.09.10",
-    "timestamp": 1788998400000,
-    "readTime": "5분 소요",
-    "impactScore": 9.7,
-    "impactTier": "엔터프라이즈 가치 창출",
-    "views": 7450,
-    "whyMatters": "정기적으로 생성형 AI를 활용하는 기업이 65%로 급증한 가운데, 조직원 교육과 워크플로우 재설계를 단행한 상위 10% 기업만이 두 자릿수 이상의 실질적 EBIT 개선을 창출.",
-    "summary": "맥킨지 글로벌 서베이 결과 기업들의 생성형 AI 도입률이 폭증했습니다. 특히 인사·재무·기획 등 전사 업무 프로세스를 재설계한 선도 기업의 조직 변화를 집중 분석했습니다.",
-    "fullSummary": [
-      "마케팅·영업, IT 개발, 고객 운영 부문에서 가장 높은 비용 절감과 매출 증대 효과 발생.",
-      "고성과 조직(AI High Performers)은 데이터 아키텍처 정비와 직무 재설계(Reskilling)에 예산의 40% 이상을 배정.",
-      "단순한 외산 솔루션 도입보다 사내 고유 지식 자산을 정제해 파인튜닝한 프라이빗 파이프라인이 높은 ROI를 기록."
-    ],
-    "actionPlan": "전사 임직원을 대상으로 직무별 AI 활용 표준 커리큘럼을 제도화하고, 사내 핵심 지식의 정형 데이터베이스화를 서둘러야 함.",
-    "tags": [
-      "#맥킨지",
-      "#McKinsey",
-      "#QuantumBlack",
-      "#TheStateOfAI",
-      "#조직변화"
-    ]
-  },
-  {
-    "id": "news-009",
-    "title": "[베인앤드컴퍼니] AI Leaders Are Extending Their Edge Through Agentic Orchestration",
-    "category": "agents",
-    "categoryLabel": "🤖 자율 에이전트",
-    "badgeClass": "agents",
-    "sourceType": "consulting",
-    "sourceOrg": "베인앤드컴퍼니 (Bain)",
-    "reportType": "Bain 글로벌 테크놀로지 연례 보고서",
-    "source": "Bain & Company Global Tech Desk",
-    "originalUrl": "https://www.bain.com/insights/topics/technology-report/",
-    "time": "2026.09.11 (목)",
-    "publishedDate": "2026.09.11",
-    "timestamp": 1789084800000,
-    "readTime": "5분 소요",
-    "impactScore": 9.7,
-    "impactTier": "에이전트 오케스트레이션",
-    "views": 6720,
-    "whyMatters": "선도 기업들은 단순 코파일럿 배포를 넘어 사내 도메인 룰셋에 기반한 멀티 에이전트 오케스트레이션에 전폭 투자하여 후발 주자와의 생산성 격차를 2.5배 이상 확대.",
-    "summary": "베인앤드컴퍼니 글로벌 리포트는 선도 기업들이 목표 중심의 자율 에이전트 군단을 실제 비즈니스 프로세스에 연동함으로써 확장된 경쟁 우위를 점하고 있음을 실증했습니다.",
-    "fullSummary": [
-      "자율 에이전트가 고객 지원, 재고 관리, 금융 대사 등 복합 업무를 종단 간 완결.",
-      "에이전트 간 권한 위임(Delegation)과 에러 복구 메커니즘을 조기 안착시킨 기업의 운영 마진 대폭 개선.",
-      "단일 모델 도입보다 여러 전문 에이전트가 협업하는 멀티 에이전트 아키텍처가 실질 ROI의 핵심으로 확인."
-    ],
-    "actionPlan": "사내 IT 팀은 독립된 단일 AI 봇 개발을 중단하고, 에이전트 간 통신 프로토콜과 권한 제어 프레임워크를 우선 수립할 것.",
-    "tags": [
-      "#베인앤드컴퍼니",
-      "#Bain",
-      "#글로벌테크",
-      "#자율에이전트",
-      "#경쟁우위"
+      "#한국경제",
+      "#엔비디아",
+      "#젠슨황",
+      "#AGI",
+      "#AI인프라"
     ]
   },
   {
     "id": "news-010",
-    "title": "[한경 심층] “병원 AI, 도입 넘어 관리·정착 관건…데이터·거버넌스 체계 갖춰야”",
-    "category": "industry",
-    "categoryLabel": "🏭 산업별 현장 사례",
-    "badgeClass": "industry",
+    "title": "[한경] \"10년 내 우리 모두 죽을 수도\"… AI 연구원 '충격' 사직 이유 [김인엽의 AI 프런티어]",
+    "category": "policy",
+    "categoryLabel": "⚖️ 거버넌스·규제",
+    "badgeClass": "policy",
     "sourceType": "media",
     "sourceOrg": "한국경제신문",
-    "reportType": "한경 헬스케어·산업 AI 심층보도",
-    "source": "한국경제신문 바이오·IT부",
-    "originalUrl": "https://www.hankyung.com/article/2026091294821",
-    "time": "2026.09.12 (금)",
+    "reportType": "한경 AI 프런티어 기획 칼럼",
+    "source": "한국경제신문 김인엽 기자",
+    "originalUrl": "https://www.hankyung.com/article/202609119432i",
+    "time": "2026.09.12 (토)",
     "publishedDate": "2026.09.12",
-    "timestamp": 1789171200000,
-    "readTime": "4분 소요",
-    "impactScore": 9.4,
-    "impactTier": "산업 현장 AX",
-    "views": 5120,
-    "whyMatters": "의료 및 병원 현장에서 솔루션 도입 자체보다 전자의무기록(EMR) 데이터 연동과 의료진의 신뢰도를 확보하는 내부 정착 관리 체계가 성공의 결정적 변수로 부상.",
-    "summary": "국내 주요 대학병원 및 헬스케어 기관들이 AI 판독 및 환자 모니터링 시스템을 실무에 안착시키기 위해 거버넌스 가이드라인을 수립하고 현장 피드백 루프를 가동하고 있습니다.",
+    "timestamp": 1789261203000,
+    "readTime": "5분 소요",
+    "impactScore": 9.6,
+    "impactTier": "프런티어 안전 위기 경고",
+    "views": 8350,
+    "whyMatters": "오픈AI 등 최전선 연구소를 이탈하는 핵심 연구원들이 '안전 검증보다 상업화 출시 속도에 매몰된 빅테크의 통제력 상실'을 강력 경고. 기업이 자율 AI를 도입할 때 왜 내부 감사와 안전장치가 생존 문제인지 보여주는 심층 리포트.",
+    "summary": "프런티어 AI 기업의 수석 연구원들이 상업적 속도전에 치여 안전 연구가 후순위로 밀리는 현실에 항의하며 사직한 배경과 인류적 파장을 조명했습니다.",
     "fullSummary": [
-      "단순 솔루션 구매에 그친 병원은 활용률이 15% 미만인 반면, 진료 워크플로우에 자연스럽게 임베디드한 병원은 85% 이상 활용.",
-      "의료 데이터 거버넌스와 환자 개인정보 보호 규제를 선제 준수한 클라우드 파이프라인 구축이 핵심.",
-      "현장 의사 및 간호사 대상의 AI 결과 해석 교육과 설명 가능한 AI(XAI) 인터페이스 도입이 필수."
+      "모델의 추론 능력 향상 속도가 인간의 제어 및 해석 가능성(Interpretability) 확보 속도를 크게 앞지르고 있는 위험 지적.",
+      "상용화 압박에 밀려 최소한의 안전 검증 프로토콜마저 완화되는 기업 환경에 대한 내부 고발 확산.",
+      "사내 프로덕션 시스템에 AI를 투입하는 엔터프라이즈 환경에서도 '제어 불능 에이전트 리스크' 대응이 핵심 리스크 관리 항목으로 부상."
     ],
-    "actionPlan": "규제가 엄격한 산업(의료, 금융, 제약) 기업은 AI 툴 도입 전 데이터 전처리 거버넌스와 현장 사용자 경험(UX) 통합 설계를 선행할 것.",
+    "actionPlan": "사내 생성형 AI 및 에이전트 도입 시 위험도 평가표를 마련하고, 외부 보안 감사(Red Teaming)를 통과한 모델만 배포하도록 제도를 정비할 것.",
     "tags": [
       "#한국경제",
-      "#병원AX",
-      "#헬스케어AI",
-      "#데이터거버넌스",
-      "#산업현장"
+      "#AI프런티어",
+      "#김인엽기자",
+      "#AI안전경고",
+      "#거버넌스"
     ]
   },
   {
     "id": "news-011",
-    "title": "[한경 테크] 퓨리오사AI, 싱가포르 법인 설립… 차세대 NPU로 엔터프라이즈 추론 TCO 50% 절감",
-    "category": "frontier",
-    "categoryLabel": "⚡ 프론티어 기술",
-    "badgeClass": "frontier",
+    "title": "[매경] “국방 예산, AI에 투자해야… 투자 대비 초과 수익 올릴 것”",
+    "category": "industry",
+    "categoryLabel": "🏭 산업별 현장 사례",
+    "badgeClass": "industry",
     "sourceType": "media",
-    "sourceOrg": "한국경제신문",
-    "reportType": "한경 AI 반도체·인프라 분석",
-    "source": "한국경제신문 테크부",
-    "originalUrl": "https://www.hankyung.com/article/2026091196801",
-    "time": "2026.09.11 (목)",
-    "publishedDate": "2026.09.11",
-    "timestamp": 1789084800000,
+    "sourceOrg": "매일경제신문",
+    "reportType": "매경 글로벌 리더 인터뷰",
+    "source": "매일경제신문 테크부",
+    "originalUrl": "https://www.mk.co.kr/news/it/12151320",
+    "time": "2026.09.13 (일)",
+    "publishedDate": "2026.09.13",
+    "timestamp": 1789362000000,
     "readTime": "4분 소요",
-    "impactScore": 9.4,
-    "impactTier": "추론 TCO 최적화",
-    "views": 5410,
-    "whyMatters": "엔터프라이즈 AI 추론 비용이 천문학적으로 치솟는 가운데, 고효율·저전력 NPU를 앞세운 국산 팹리스가 글로벌 하이퍼스케일러 데이터센터 수주전에 돌입.",
-    "summary": "국내 대표 AI 팹리스 퓨리오사AI가 싱가포르에 글로벌 전진기지를 구축하고 아시아 태평양 엔터프라이즈 데이터센터 추론 가속기 시장 공략을 본격 개시했습니다.",
+    "impactScore": 9.5,
+    "impactTier": "국방·안보 AX 실증",
+    "views": 6730,
+    "whyMatters": "미국 국방 유니콘 실드AI 브랜던 쳉 사장이 밝힌 '미션 크리티컬 영역의 AI 전환 ROI'. 고비용 하드웨어 플랫폼보다 AI 파일럿과 자율 에이전트 소프트웨어에 투자했을 때 투입 비용 대비 수배의 전술적 가치와 효율을 창출함을 실증.",
+    "summary": "미 국방 AI 대표 주자 실드AI 사장이 방위산업 및 국가 중요 인프라에서 자율 에이전트 소프트웨어 중심의 투자가 막대한 예산 절감과 압도적 성과를 거둔다고 역설했습니다.",
     "fullSummary": [
-      "2세대 AI 반도체 '레니게이드(RNGD)'를 통해 기존 GPU 대비 전력 효율 3배 이상 개선 입증.",
-      "엔터프라이즈 온프레미스 서버 도입 시 총소유비용(TCO)을 50% 절감할 수 있는 실증 레퍼런스 확보.",
-      "싱가포르를 거점으로 동남아 금융·통신 대기업 데이터센터에 국산 NPU 탑재 추진."
+      "전통적인 거대 군사 하드웨어 개발 대신 상용 드론 및 장비에 자율 파일럿 AI(Hivemind 등)를 탑재해 즉시 전력화.",
+      "통신이 단절된 극한 환경에서도 엣지 AI를 통해 스스로 장애물을 회피하고 목표를 달성하는 자율 오케스트레이션 구현.",
+      "제조·중공업·물류 등 고위험 현장 산업 기업들에게도 '소프트웨어 정의 자율화(Software-defined Autonomy)'의 강력한 벤치마크 제공."
     ],
-    "actionPlan": "사내 프라이빗 AI 클라우드를 운영하는 기업은 고비용 GPU 단일 벤더 독점 구조를 탈피하고 차세대 NPU 기반의 멀티 칩 아키텍처 도입을 검토할 것.",
+    "actionPlan": "물류, 제조, 인프라 관리 등 현장 작업을 운영하는 기업은 고가 장비 교체보다 현장 엣지 디바이스에 탑재 가능한 자율 AI 소프트웨어 도입을 검토할 것.",
     "tags": [
-      "#한국경제",
-      "#퓨리오사AI",
-      "#NPU",
-      "#AI반도체",
-      "#데이터센터"
+      "#매일경제",
+      "#실드AI",
+      "#브랜던쳉",
+      "#국방AX",
+      "#자율에이전트"
     ]
   },
   {
     "id": "news-012",
-    "title": "[딜로이트 글로벌] 38% of B2B Buyers Now Use Agentic AI in Enterprise Procurement",
+    "title": "[매경] 피지컬 AI로 사람 중심 돌봄 강화… ‘초고령선배’ 일본의 대답은 [세계지식포럼]",
     "category": "industry",
     "categoryLabel": "🏭 산업별 현장 사례",
     "badgeClass": "industry",
-    "sourceType": "consulting",
-    "sourceOrg": "딜로이트 (Deloitte)",
-    "reportType": "Deloitte B2B 커머스 & 조달 리서치",
-    "source": "Deloitte Digital Practice",
-    "originalUrl": "https://www2.deloitte.com/us/en/insights/focus/tech-trends.html",
-    "time": "2026.09.12 (금)",
-    "publishedDate": "2026.09.12",
-    "timestamp": 1789171200000,
+    "sourceType": "media",
+    "sourceOrg": "매일경제신문",
+    "reportType": "제27회 세계지식포럼 현장 리포트",
+    "source": "매일경제신문 특별취재팀",
+    "originalUrl": "https://www.mk.co.kr/news/it/12150099",
+    "time": "2026.09.11 (금)",
+    "publishedDate": "2026.09.11",
+    "timestamp": 1789172321000,
     "readTime": "4분 소요",
     "impactScore": 9.3,
-    "impactTier": "B2B 커머스 AX",
-    "views": 4890,
-    "whyMatters": "글로벌 B2B 구매 담당자의 38%가 견적 비교, 공급사 스크리닝, 계약 조건 검토 과정에서 자율 AI 에이전트를 이미 실전 배치 중임을 실증.",
-    "summary": "딜로이트 조사에 따르면 B2B 기업 간 거래에서도 소비재 못지않게 에이전트 기반의 자동 발주 및 조달 최적화 시스템이 표준으로 안착하고 있습니다.",
+    "impactTier": "피지컬 AI 현장 접목",
+    "views": 5620,
+    "whyMatters": "세계지식포럼에서 일본 석학과 기업 리더들이 발표한 초고령화 대응 피지컬 AI(Physical AI) 모델. 모니터 안의 소프트웨어 챗봇을 벗어나 로보틱스, 센서, 헬스케어 데이터를 결합해 실제 물리적 돌봄 현장의 노동 생산성을 혁신한 국가적 성공 사례.",
+    "summary": "초고령 사회 일본의 첨단 IT 기술과 피지컬 AI를 결합해 시니어 돌봄 부담을 줄이고 환자 맞춤형 건강 관리 안전망을 구축한 현장 솔루션이 세계지식포럼에서 공개되었습니다.",
     "fullSummary": [
-      "복잡한 부품 사양 비교와 납기 일정을 에이전트가 실시간 파싱하여 조달 소요 시간을 65% 단축.",
-      "공급망 단절 위험이나 가격 변동성을 사전에 예측해 대체 벤더를 자동으로 추천하는 알고리즘 가동.",
-      "B2B 판매 기업 역시 AI 에이전트가 읽고 협상할 수 있는 머신 리더블(Machine-readable) 카탈로그 구축 시급."
+      "웨어러블 센서와 공간 감지 AI를 통해 거동 불편자의 낙상 및 위급 상황을 실시간 감지하여 간병 인력 부담 50% 경감.",
+      "인간 간병인을 대체하는 것이 아니라 단순 모니터링 및 육체 노동을 보조해 '사람 중심 돌봄'의 품질을 극대화.",
+      "의료·돌봄·금융 데이터가 유기적으로 연동되는 고령층 전용 AI 라이프 파이프라인 구축."
     ],
-    "actionPlan": "B2B 공급망 및 영업 기업은 인간 바이어뿐만 아니라 '바이어 측 AI 에이전트'가 자사 제품 정보를 실시간 API로 탐색할 수 있도록 데이터 인터페이스를 개방할 것.",
+    "actionPlan": "헬스케어 및 시니어 비즈니스를 영위하는 기업은 단순 대화형 서비스보다 신체 데이터 및 물리적 디바이스와 연결된 피지컬 AI 솔루션을 선제 개발할 것.",
     "tags": [
-      "#딜로이트",
-      "#B2B조달",
-      "#에이전틱AI",
-      "#공급망혁신",
-      "#글로벌리포트"
+      "#매일경제",
+      "#세계지식포럼",
+      "#피지컬AI",
+      "#돌봄AX",
+      "#헬스케어AI"
     ]
   },
   {
     "id": "news-013",
-    "title": "[구글 딥마인드] 차세대 실시간 멀티모달 자율 에이전트 '프로젝트 아스트라(Project Astra)' 기술 백서",
-    "category": "frontier",
-    "categoryLabel": "⚡ 프론티어 기술",
-    "badgeClass": "frontier",
-    "sourceType": "consulting",
-    "sourceOrg": "구글 딥마인드 (Google DeepMind)",
-    "reportType": "Google DeepMind 리서치 기술 백서",
-    "source": "Google DeepMind Research Lab",
-    "originalUrl": "https://deepmind.google/technologies/project-astra/",
-    "time": "2026.09.14 (월)",
-    "publishedDate": "2026.09.14",
-    "timestamp": 1789344000000,
-    "readTime": "5분 소요",
-    "impactScore": 9.8,
-    "impactTier": "실시간 비전 에이전트",
-    "views": 8920,
-    "whyMatters": "단순 텍스트 대화형 챗봇을 완전히 탈피해 연속 비디오 프레임과 실시간 오디오를 초저지연으로 처리하며 화면 공유와 복합 도구(Tool Use)를 자율 오케스트레이션하는 차세대 범용 어시스턴트 아키텍처 공개.",
-    "summary": "구글 딥마인드가 공간 인지(Spatial Processing)와 스크린 실시간 해석 역량을 결합한 범용 AI 어시스턴트 프로토타입 '프로젝트 아스트라'의 실전 적용 기술 백서를 발표했습니다.",
+    "title": "[매경] “한달 200달러? 내 돈 가져가십쇼”… 차세대 고성능 추론 AI 가입 폭주",
+    "category": "workplace",
+    "categoryLabel": "💼 일하는 방식 변화",
+    "badgeClass": "workplace",
+    "sourceType": "media",
+    "sourceOrg": "매일경제신문",
+    "reportType": "매경 글로벌 IT 현장",
+    "source": "매일경제신문 테크부",
+    "originalUrl": "https://www.mk.co.kr/news/it/12150793",
+    "time": "2026.09.11 (금)",
+    "publishedDate": "2026.09.11",
+    "timestamp": 1789209001000,
+    "readTime": "4분 소요",
+    "impactScore": 9.7,
+    "impactTier": "고성능 추론 및 업무 혁신",
+    "views": 9140,
+    "whyMatters": "월 200달러(약 27만원)에 달하는 초고가 차세대 추론 특화 AI 구독 서비스에 기업 개발자, 금융 분석가, 연구원들의 가입이 폭주하며 서버가 일시 중단. '생산성을 획기적으로 올려준다면 비용은 얼마든지 지불하겠다'는 엔터프라이즈 현장의 실질적 지불 용의(Willingness to Pay)를 입증.",
+    "summary": "오픈AI의 차세대 고성능 추론 모델 구독 서비스가 고가 책정에도 불구하고 업무 생산성 혁신을 체감한 글로벌 기업 및 전문가들의 수요 폭증으로 서버 과부하를 겪었습니다.",
     "fullSummary": [
-      "실시간 카메라 스트림 및 화면 공유 환경에서 시각적 맥락을 지연 없이 파악해 실시간 코드 디버깅 및 시스템 운영 가이드 제공.",
-      "인간의 음성 질문과 환경 변화를 동시에 인지하여 즉각적인 도구 호출(Tool Calling) 및 과업 완결.",
-      "모바일 디바이스와 엔터프라이즈 스마트 글래스 등에 탑재되어 현장 작업자의 물리적 AX를 혁신할 핵심 기반 구축."
+      "단순 글짓기 챗봇 수준을 넘어 복잡한 수학 증명, 대규모 코드베이스 리팩토링, 금융 모델링을 완결하는 추론(Reasoning) AI의 실전 가치 확인.",
+      "지식 근로자의 주당 고부가가치 과업 처리 속도를 3배 이상 끌어올리며 월 200달러 이상의 재무적 가치를 즉시 회수.",
+      "기업들이 무료나 저가 모델 대신 '확실한 생산성 보장 모델'에 아낌없이 예산을 투입하는 엔터프라이즈 시장의 양극화 가속."
     ],
-    "actionPlan": "현장 엔지니어링 및 생산 공정을 보유한 기업은 텍스트 챗봇에 머물지 말고, 실시간 비디오 스트림을 해석하는 비전-언어 에이전트(Project Astra 류)의 파일럿 도입을 준비할 것.",
+    "actionPlan": "사내 IT 지원팀은 저가 범용 툴의 일괄 지급 방식에서 벗어나, 핵심 직무(개발, 데이터, 법무 등) 인력에게 고성능 추론 AI 라이선스를 선별 지원해 ROI를 극대화할 것.",
     "tags": [
-      "#구글딥마인드",
-      "#ProjectAstra",
-      "#멀티모달",
-      "#실시간비전에이전트",
-      "#범용AI"
+      "#매일경제",
+      "#추론AI",
+      "#업무생산성",
+      "#일하는방식",
+      "#엔터프라이즈구독"
     ]
   }
 ];
 
-// Trending keywords list (Curated from McKinsey, BCG, Hankyung, FT, etc.)
+// Trending keywords list (Curated from Bain, PwC, Deloitte, Hankyung, MK)
 const TRENDING_KEYWORDS = [
   "AI 개발 속도 조절",
-  "구글 프로젝트 아스트라",
-  "SK이노베이션 AX",
-  "일하는 방식 혁신",
-  "맥킨지 에이전틱코어",
-  "한경 엔터프라이즈AI",
+  "KT 모두의 AI 플랫폼",
+  "퓨리오사AI NPU 진출",
+  "메가존 일본 AX 수출",
   "베인 자율에이전트",
-  "삼성SDS 보안연결",
-  "딜로이트 테크트렌드"
+  "PwC 에이전틱 워크플로우",
+  "딜로이트 테크트렌드",
+  "젠슨 황 AGI 인프라",
+  "피지컬 AI 현장 돌봄"
 ];
-
 // Category metadata definitions (ordered by logical priority)
 const CATEGORY_DEFINITIONS = [
   { 
     id: "enterprise", 
     label: "🏢 기업·엔터프라이즈 AX", 
     icon: "fa-building",
-    desc: "글로벌 톱 컨설팅 펌과 정론 경제지가 분석한 엔터프라이즈 AI 전환, 온프레미스 sLLM 구축 및 전사 ROI 전략" 
+    desc: "KT 플랫폼 연합, 메가존 일본 진출, 딜로이트 테크 트렌드 등 실전 B2B 엔터프라이즈 전환 및 ROI 전략" 
   },
   { 
     id: "workplace", 
     label: "💼 일하는 방식 변화", 
     icon: "fa-briefcase",
-    desc: "AI 에이전트 도입에 따른 업무 문화 혁신, 불필요 회의 45% 단축, 주 4일제 정착 및 대기업 직무 리스킬링" 
+    desc: "차세대 고성능 추론 AI 서비스 가입 폭주와 지식 근로자의 실질 업무 생산성 혁신" 
   },
   { 
     id: "frontier", 
     label: "⚡ 프론티어 기술", 
     icon: "fa-bolt-lightning",
-    desc: "오픈AI 차세대 GPT-6 아스트라(Astra), 엔비디아 블랙웰 울트라 공급망 및 W3C 에이전트 표준 프로토콜" 
+    desc: "퓨리오사AI 싱가포르 법인 및 차세대 NPU 글로벌 진출, 엔비디아 AGI 인프라 패권 분석" 
   },
   { 
     id: "agents", 
     label: "🤖 자율 에이전트", 
     icon: "fa-robot",
-    desc: "단순 챗봇을 넘어 스스로 목표를 수립하고 실행하는 멀티 에이전트 오케스트레이션 및 포춘 500 CEO 서베이" 
+    desc: "베인앤드컴퍼니와 PwC가 제시한 엔터프라이즈 에이전틱 오케스트레이션 및 비즈니스 가치" 
   },
   { 
     id: "industry", 
     label: "🏭 산업별 현장 사례", 
     icon: "fa-industry",
-    desc: "BCG X 제조 피지컬 AI, 현대차·삼성전자 양산 스마트팩토리, 글로벌 제약 바이오 신약 임상 다중 에이전트" 
+    desc: "실드AI 국방 소프트웨어 자율화 실증, 피지컬 AI 초고령 돌봄 등 버티컬 산업 현장 혁신" 
   },
   { 
     id: "policy", 
     label: "⚖️ 거버넌스·규제", 
     icon: "fa-scale-balanced",
-    desc: "EU AI 법안(AI Act) 전면 발효 대응, 엔터프라이즈 AI 리스크 관리 및 이사회 산하 감사 체계 구축 가이드" 
+    desc: "빅테크 수장들의 AI 개발 속도조절론, 통제 불능 리스크 경고 및 기업 엔터프라이즈 안전 거버넌스" 
   }
 ];
 
@@ -1162,14 +1162,14 @@ function openBriefingModal() {
   const fullBriefing = `[AX 트렌드 리포트 | 2026년 9월 2주차 위클리 종합 브리핑]
 발행일자: ${briefingDateText}
 발행처: AX 트렌드 리포트 인텔리전스 데스크
-엄선 대상: 글로벌 Tier-1 전략 컨설팅(McKinsey, BCG, Bain, Big4) 및 정론 경제지(한경, 매경, FT, 로이터)
+엄선 대상: 정론 경제·IT 유력지 (한국경제, 매일경제) 및 글로벌 씽크탱크·컨설팅 (Bain, PwC, Deloitte)
 총 분석 리포트: ${NEWS_DATA.length}건
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ■ WEEKLY 1분 핵심 총평 (Executive Takeaways)
-1. "자율 에이전트와 온프레미스 sLLM의 결합": 단순 검색 챗봇(RAG)의 한계를 넘어 실제 사내 ERP/DB와 연동되어 업무를 완결하는 '에이전틱 코어' 구축 기업이 압도적인 ROI와 영업이익률 개선을 증명하고 있습니다.
-2. "일하는 방식의 패러다임 전환": MS Work Trend Index와 주요 대기업 조사 결과, 자율 에이전트를 도입한 팀은 불필요한 회의와 메일이 45% 줄고 직무 리스킬링을 통해 '1인 멀티 에이전트 오케스트레이터' 체제로 급선회하고 있습니다.
-3. "프론티어 기술의 도약": 오픈AI의 차세대 'GPT-6 아스트라'와 엔비디아 '블랙웰 울트라'를 필두로 추론 지연 시간(Latency) 단축과 물리·OS 자율 제어 모델이 산업 전반을 강타하고 있습니다.
+1. "속도전에서 안전 거버넌스로의 대전환": 앤트로픽·오픈AI·xAI·구글 딥마인드 등 글로벌 4대 빅테크 수장들이 자율 에이전트 통제 불능 리스크에 대응해 '개발 속도 조절(Pacing)'에 전격 합의하며 엔터프라이즈 안전 거버넌스가 최우선 과제로 부상했습니다.
+2. "플랫폼 연합과 에이전틱 B2B 실전 돌입": KT의 '모두의 AI'(다음·무신사·직방) 연합과 메가존클라우드의 일본 시장 진출, 베인·PwC의 에이전틱 워크플로우 실증처럼 기업들이 일회성 PoC를 끝내고 실질적인 비즈니스 임팩트(ROI) 창출에 집중하고 있습니다.
+3. "추론 인프라 TCO 절감과 현장 피지컬 AX": 퓨리오사AI의 차세대 NPU 글로벌 진출, 실드AI의 국방 소프트웨어 자율화 실증, 피지컬 AI 기반 고령층 돌봄 등 버티컬 산업 현장의 물리적 AI 전환이 가속화되고 있습니다.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ${catSectionsText}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
