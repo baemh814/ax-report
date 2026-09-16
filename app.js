@@ -516,8 +516,6 @@ const state = {
   sourceTypeFilter: "all", // "all" | "consulting" | "media"
   searchQuery: "",
   sortBy: "latest",
-  onlyBookmarks: false,
-  bookmarks: JSON.parse(localStorage.getItem("aiax_pulse_bookmarks") || "[]"),
   selectedNews: null
 };
 
@@ -536,8 +534,6 @@ const DOM = {
   searchInput: document.getElementById("searchInput"),
   clearSearchBtn: document.getElementById("clearSearchBtn"),
   sortSelect: document.getElementById("sortSelect"),
-  bookmarkFilterBtn: document.getElementById("bookmarkFilterBtn"),
-  bookmarkBadge: document.getElementById("bookmarkBadge"),
   filterStatusBar: document.getElementById("filterStatusBar"),
   filterStatusText: document.getElementById("filterStatusText"),
   resetFilterBtn: document.getElementById("resetFilterBtn"),
@@ -557,7 +553,6 @@ const DOM = {
   modalSummaryList: document.getElementById("modalSummaryList"),
   modalActionPlan: document.getElementById("modalActionPlan"),
   modalTags: document.getElementById("modalTags"),
-  modalBookmarkToggleBtn: document.getElementById("modalBookmarkToggleBtn"),
   modalCopySummaryBtn: document.getElementById("modalCopySummaryBtn"),
   // Briefing Modal
   briefingBtn: document.getElementById("briefingBtn"),
@@ -599,7 +594,6 @@ async function initApp() {
   renderTrendingKeywords();
   renderCategoryTabs();
   renderNewsGrid();
-  updateBookmarkBadge();
   setupEventListeners();
 }
 
@@ -686,7 +680,7 @@ function renderCategoryTabs() {
       ? NEWS_DATA.length 
       : NEWS_DATA.filter(item => item.category === cat.id).length;
     
-    const activeClass = state.currentCategory === cat.id && !state.onlyBookmarks ? "active" : "";
+    const activeClass = state.currentCategory === cat.id ? "active" : "";
     return `
       <button class="category-tab-btn ${activeClass}" data-category="${cat.id}">
         <span>${cat.label}</span>
@@ -699,8 +693,6 @@ function renderCategoryTabs() {
     btn.addEventListener("click", () => {
       const cat = btn.getAttribute("data-category");
       state.currentCategory = cat;
-      state.onlyBookmarks = false;
-      DOM.bookmarkFilterBtn.setAttribute("data-active", "false");
       updateCategoryTabsActive();
       renderNewsGrid();
     });
@@ -711,7 +703,7 @@ function updateCategoryTabsActive() {
   if (!DOM.categoryTabs) return;
   DOM.categoryTabs.querySelectorAll(".category-tab-btn").forEach(btn => {
     const cat = btn.getAttribute("data-category");
-    if (cat === state.currentCategory && !state.onlyBookmarks) {
+    if (cat === state.currentCategory) {
       btn.classList.add("active");
     } else {
       btn.classList.remove("active");
@@ -742,10 +734,8 @@ function getFilteredNews() {
     list = list.filter(item => item.sourceType === state.sourceTypeFilter);
   }
 
-  // Bookmark filter
-  if (state.onlyBookmarks) {
-    list = list.filter(item => state.bookmarks.includes(item.id));
-  } else if (state.currentCategory !== "all") {
+  // Category filter
+  if (state.currentCategory !== "all") {
     list = list.filter(item => item.category === state.currentCategory);
   }
 
@@ -777,7 +767,6 @@ function getFilteredNews() {
 
 // Helper: Render single news card HTML
 function renderCardHtml(item) {
-  const isBookmarked = state.bookmarks.includes(item.id);
   const isConsulting = item.sourceType === "consulting";
   const sourceIcon = isConsulting ? "fa-building-columns" : "fa-newspaper";
   const sourceBadgeClass = isConsulting ? "source-consulting" : "source-media";
@@ -831,11 +820,6 @@ function renderCardHtml(item) {
         </div>
 
         <div class="card-action-btns">
-          <button class="icon-btn bookmark-toggle-btn ${isBookmarked ? 'active' : ''}" 
-                  data-id="${item.id}" 
-                  title="${isBookmarked ? '리포트 스크랩 취소' : '리포트 스크랩(북마크)'}">
-            <i class="${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark"></i>
-          </button>
           <a href="${item.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" 
              class="btn btn-outline btn-sm card-ext-link-btn" 
              title="원문 기사/리포트 발행처(외부)로 바로 이동"
@@ -956,18 +940,10 @@ function renderNewsGrid() {
   // Attach card event listeners
   DOM.newsGrid.querySelectorAll(".news-card").forEach(card => {
     card.addEventListener("click", (e) => {
-      // Don't trigger if clicked on bookmark button or external link
-      if (e.target.closest(".bookmark-toggle-btn") || e.target.closest(".card-ext-link-btn")) return;
+      // Don't trigger if clicked on external link
+      if (e.target.closest(".card-ext-link-btn")) return;
       const id = card.getAttribute("data-id");
       openDetailModal(id);
-    });
-  });
-
-  DOM.newsGrid.querySelectorAll(".bookmark-toggle-btn").forEach(btn => {
-    btn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      const id = btn.getAttribute("data-id");
-      toggleBookmark(id);
     });
   });
 }
@@ -975,7 +951,6 @@ function renderNewsGrid() {
 function updateFilterStatusBar(count) {
   const isFiltering = 
     state.searchQuery.trim() !== "" || 
-    state.onlyBookmarks || 
     state.currentCategory !== "all" || 
     state.sourceTypeFilter !== "all";
 
@@ -993,9 +968,7 @@ function updateFilterStatusBar(count) {
     ? " [정론 경제·글로벌 유력 언론사]" 
     : "";
 
-  if (state.onlyBookmarks) {
-    statusText = `저장된 북마크 목록: <strong>${count}</strong>건${sourceDesc}`;
-  } else if (state.searchQuery.trim()) {
+  if (state.searchQuery.trim()) {
     statusText = `"${state.searchQuery}" 검색 결과: <strong>${count}</strong>건${sourceDesc}`;
   } else if (state.currentCategory !== "all") {
     const catObj = CATEGORIES.find(c => c.id === state.currentCategory);
@@ -1007,43 +980,7 @@ function updateFilterStatusBar(count) {
 }
 
 // ==========================================================================
-// 6. Bookmarks & LocalStorage
-// ==========================================================================
-function toggleBookmark(id) {
-  const index = state.bookmarks.indexOf(id);
-  let isAdded = false;
-
-  if (index > -1) {
-    state.bookmarks.splice(index, 1);
-    isAdded = false;
-  } else {
-    state.bookmarks.push(id);
-    isAdded = true;
-  }
-
-  localStorage.setItem("aiax_pulse_bookmarks", JSON.stringify(state.bookmarks));
-  updateBookmarkBadge();
-  renderNewsGrid();
-
-  // If modal is open, update modal bookmark button state
-  if (state.selectedNews && state.selectedNews.id === id) {
-    updateModalBookmarkBtnState();
-  }
-
-  showToast(
-    isAdded ? "리포트가 북마크에 저장되었습니다." : "북마크에서 제거되었습니다.",
-    isAdded ? "fa-solid fa-bookmark" : "fa-regular fa-bookmark"
-  );
-}
-
-function updateBookmarkBadge() {
-  if (DOM.bookmarkBadge) {
-    DOM.bookmarkBadge.textContent = state.bookmarks.length;
-  }
-}
-
-// ==========================================================================
-// 7. Detail Modal Logic
+// 6. Detail Modal Logic
 // ==========================================================================
 function openDetailModal(id) {
   const news = NEWS_DATA.find(item => item.id === id);
@@ -1101,8 +1038,6 @@ function openDetailModal(id) {
   // Tags
   DOM.modalTags.innerHTML = news.tags.map(tag => `<span class="card-tag">${tag}</span>`).join("");
 
-  updateModalBookmarkBtnState();
-
   DOM.detailModal.classList.add("open");
   DOM.detailModal.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
@@ -1113,23 +1048,6 @@ function closeDetailModal() {
   DOM.detailModal.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
   state.selectedNews = null;
-}
-
-function updateModalBookmarkBtnState() {
-  if (!state.selectedNews || !DOM.modalBookmarkToggleBtn) return;
-  const isBookmarked = state.bookmarks.includes(state.selectedNews.id);
-  const icon = DOM.modalBookmarkToggleBtn.querySelector("i");
-  const span = DOM.modalBookmarkToggleBtn.querySelector("span");
-
-  if (isBookmarked) {
-    DOM.modalBookmarkToggleBtn.classList.add("active");
-    if (icon) icon.className = "fa-solid fa-bookmark";
-    if (span) span.textContent = "스크랩 완료";
-  } else {
-    DOM.modalBookmarkToggleBtn.classList.remove("active");
-    if (icon) icon.className = "fa-regular fa-bookmark";
-    if (span) span.textContent = "리포트 스크랩";
-  }
 }
 
 // ==========================================================================
@@ -1223,14 +1141,6 @@ function setupEventListeners() {
     });
   }
 
-  // Bookmark filter button
-  DOM.bookmarkFilterBtn.addEventListener("click", () => {
-    state.onlyBookmarks = !state.onlyBookmarks;
-    DOM.bookmarkFilterBtn.setAttribute("data-active", state.onlyBookmarks ? "true" : "false");
-    updateCategoryTabsActive();
-    renderNewsGrid();
-  });
-
   // Reset filter status button
   DOM.resetFilterBtn.addEventListener("click", resetAllFilters);
   DOM.emptyResetBtn.addEventListener("click", resetAllFilters);
@@ -1238,14 +1148,6 @@ function setupEventListeners() {
   // Detail Modal Controls
   if (DOM.closeDetailModalBtn) DOM.closeDetailModalBtn.addEventListener("click", closeDetailModal);
   DOM.detailModal?.querySelector(".modal-backdrop")?.addEventListener("click", closeDetailModal);
-
-  if (DOM.modalBookmarkToggleBtn) {
-    DOM.modalBookmarkToggleBtn.addEventListener("click", () => {
-      if (state.selectedNews) {
-        toggleBookmark(state.selectedNews.id);
-      }
-    });
-  }
 
   if (DOM.modalCopySummaryBtn) {
     DOM.modalCopySummaryBtn.addEventListener("click", () => {
