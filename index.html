@@ -26,18 +26,18 @@
   <!-- Main Broadsheet Paper Sheet -->
   <div class="broadsheet-paper">
 
-    <!-- Newspaper Top Dateline Bar (Weekly Edition) -->
+    <!-- Newspaper Top Dateline Bar (Latest Strategic Edition) -->
     <div class="newspaper-dateline-bar">
       <div class="dateline-left">
-        <span class="live-pill"><i class="fa-solid fa-calendar-check"></i> WEEKLY ISSUE #36</span>
-        <span class="dateline-item"><strong>2026년 9월 2주차 위클리 에디션</strong></span>
+        <span class="live-pill"><i class="fa-solid fa-layer-group"></i> LATEST EDITION #36</span>
+        <span class="dateline-item"><strong>2026년 9월 최신호 (September Edition)</strong></span>
         <span class="divider-dot">•</span>
-        <span class="dateline-item">발행 주기: 매주 월요일 발행</span>
+        <span class="dateline-item">상시 큐레이팅 & 정기 업데이트</span>
       </div>
       <div class="dateline-right">
-        <span id="currentDateDisplay" class="dateline-item"><i class="fa-regular fa-calendar-days"></i> 2026.09.08 ~ 09.14</span>
+        <span id="currentDateDisplay" class="dateline-item"><i class="fa-regular fa-calendar-days"></i> 최신 갱신: 2026.09.16 기준</span>
         <span class="divider-dot">•</span>
-        <span class="edition-tag trust-tag"><i class="fa-solid fa-shield-halved"></i> 1주간 엄선: 글로벌 전략 컨설팅 & 정론 경제지</span>
+        <span class="edition-tag trust-tag"><i class="fa-solid fa-shield-halved"></i> 핵심 엄선: 글로벌 전략 컨설팅 & 정론 경제지</span>
       </div>
     </div>
 
@@ -46,7 +46,7 @@
       <div class="masthead-container">
         <div class="masthead-meta-left">
           <div class="masthead-metric-box">
-            <span class="meta-label"><i class="fa-solid fa-layer-group"></i> 이번 주 엄선 리포트</span>
+            <span class="meta-label"><i class="fa-solid fa-layer-group"></i> 핵심 엄선 리포트</span>
             <div class="meta-value-row">
               <span class="meta-value" id="totalNewsCount">13</span>
               <span class="meta-unit">REPORTS</span>
@@ -58,18 +58,18 @@
         <div class="masthead-center">
           <div class="masthead-crest">
             <span class="masthead-crest-badge"><i class="fa-solid fa-bolt-lightning"></i> AX TREND REPORT</span>
-            <span class="masthead-crest-sub">WEEKLY AI & AX INTELLIGENCE NEWSLETTER</span>
+            <span class="masthead-crest-sub">ENTERPRISE AI & AX STRATEGIC INTELLIGENCE</span>
           </div>
           <h1 class="newspaper-title">AX 트렌드 리포트</h1>
           <p class="newspaper-subtitle">
-            <span class="sub-badge">WEEKLY CURATION</span> 1주간 가장 임팩트 있는 글로벌 AI 전환(AX) 전략 및 실무 분석 큐레이팅
+            <span class="sub-badge">INSIGHT CURATION</span> 지금 가장 주목할 비즈니스 임팩트 중심의 글로벌 AX 전략·실무 리포트
           </p>
         </div>
 
         <div class="masthead-meta-right single-action">
-          <button id="briefingBtn" class="btn btn-newspaper" title="경영진/팀 공유용 이번 주 위클리 종합 브리핑">
+          <button id="briefingBtn" class="btn btn-newspaper" title="경영진/팀 공유용 AX 핵심 아젠다 종합 브리핑">
             <i class="fa-solid fa-newspaper"></i>
-            <span>이번 주 위클리 종합 브리핑</span>
+            <span>AX 핵심 아젠다 종합 브리핑</span>
             <i class="fa-solid fa-arrow-right btn-arrow"></i>
           </button>
         </div>
@@ -81,10 +81,10 @@
       </div>
     </header>
 
-    <!-- Realtime Marquee Ticker (이번 주 핵심 키노트 / WEEKLY KEYNOTES) -->
-    <aside class="ticker-wrapper" aria-label="이번 주 핵심 키노트 브리핑">
+    <!-- Realtime Marquee Ticker (핵심 키노트 브리핑 / KEYNOTE HIGHLIGHTS) -->
+    <aside class="ticker-wrapper" aria-label="핵심 키노트 브리핑">
       <div class="ticker-badge">
-        <span class="breaking-seal"><i class="fa-solid fa-bookmark"></i> WEEKLY</span>
+        <span class="breaking-seal"><i class="fa-solid fa-bolt-lightning"></i> KEYNOTE</span>
         <span class="ticker-label">HIGHLIGHTS</span>
       </div>
       <div class="ticker-content" id="tickerContent">
@@ -92,13 +92,13 @@
       </div>
     </aside>
 
-    <!-- Front Page Editorial Headline Section (이번 주 위클리 커버 스토리) -->
+    <!-- Front Page Editorial Headline Section (이달의 핵심 아젠다 / Cover Story) -->
     <section class="frontpage-lead-section">
       <div class="lead-wrapper">
         <div class="lead-banner">
           <div class="lead-header-row">
-            <span class="lead-tag"><i class="fa-solid fa-star"></i> 이번 주 위클리 커버 스토리 (Weekly Cover)</span>
-            <span class="lead-date-stamp"><i class="fa-solid fa-calendar-week"></i> 2026년 9월 2주차 기획</span>
+            <span class="lead-tag"><i class="fa-solid fa-star"></i> 이달의 핵심 아젠다 (Cover Story)</span>
+            <span class="lead-date-stamp"><i class="fa-solid fa-calendar-check"></i> 2026년 9월 특집 기획</span>
           </div>
           <h2 class="lead-headline" id="leadHeadline">
             "도구의 도입을 넘어 <span class="ink-accent">'일하는 방식의 재설계'</span>로: 대기업 Smart Workplace와 실행형 AX 전면화"
@@ -157,7 +157,7 @@
         <div class="filter-toolbar">
           <div class="search-box">
             <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            <input type="text" id="searchInput" placeholder="위클리 리포트 검색 (예: 구글 프로젝트 아스트라, 베인 변화관리, 삼성전자 AX, 온프레미스...)" autocomplete="off">
+            <input type="text" id="searchInput" placeholder="AX 전략 리포트 검색 (예: 딜로이트 미래 일터, 베인 변화관리, 삼성전자 AX, 온프레미스...)" autocomplete="off">
             <span class="search-kbd-hint">SEARCH</span>
             <button id="clearSearchBtn" class="clear-btn" aria-label="검색어 지우기" style="display: none;">
               <i class="fa-solid fa-xmark"></i>
@@ -279,13 +279,13 @@
     </div>
   </div>
 
-  <!-- Weekly Comprehensive Briefing Modal (위클리 종합 브리핑) -->
+  <!-- Comprehensive Strategic Briefing Modal (글로벌 핵심 아젠다 종합 브리핑) -->
   <div class="modal-backdrop" id="briefingModal" aria-hidden="true">
     <div class="modal-card briefing-card">
       <div class="modal-header">
         <div class="modal-meta-top">
-          <span class="modal-category highlight"><i class="fa-solid fa-sparkles"></i> 주간 특별 발행</span>
-          <span class="modal-date" id="briefingDate">2026.09.08 ~ 09.14</span>
+          <span class="modal-category highlight"><i class="fa-solid fa-sparkles"></i> 전략 특별 브리핑</span>
+          <span class="modal-date" id="briefingDate">2026년 9월 최신호 (2026.09.16 기준)</span>
         </div>
         <button class="modal-close-btn" id="closeBriefingModalBtn" aria-label="브리핑 닫기">
           <i class="fa-solid fa-xmark"></i>
@@ -294,8 +294,8 @@
 
       <div class="modal-body">
         <div class="briefing-hero">
-          <h2 class="briefing-title">AX 트렌드 리포트 — 이번 주 위클리 종합 브리핑</h2>
-          <p class="briefing-desc">이번 주 글로벌 컨설팅 펌과 정론 경제지의 핵심 심층 분석을 토대로 경영진 보고 및 사내 공유용 위클리 인텔리전스를 종합했습니다.</p>
+          <h2 class="briefing-title">AX 트렌드 리포트 — 글로벌 핵심 아젠다 종합 브리핑</h2>
+          <p class="briefing-desc">글로벌 전략 컨설팅 펌과 정론 경제지의 핵심 심층 분석을 토대로 경영진 보고 및 사내 공유용 AX 전략 인텔리전스를 종합했습니다.</p>
         </div>
 
         <div class="briefing-preview-box">

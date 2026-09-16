@@ -1,11 +1,11 @@
 /**
  * AX TREND REPORT (AX 트렌드 리포트) - Core Application Logic
- * Weekly AI & AX Intelligence Newsletter (2026년 9월 2주차 위클리 에디션)
+ * Enterprise AI & AX Strategic Intelligence (2026년 9월 최신호)
  * Curated from Global Tier-1 Consulting Firms & Prestigious Economic Press
  */
 
 // ==========================================================================
-// 1. Weekly Curated AI / AX Dataset (Dynamic with Offline Fallback)
+// 1. Curated Enterprise AI / AX Dataset (Dynamic with Offline Fallback)
 // ==========================================================================
 let NEWS_DATA = [];
 
@@ -1054,7 +1054,7 @@ function closeDetailModal() {
 // 8. Weekly Briefing Modal Logic
 // ==========================================================================
 function openBriefingModal() {
-  const briefingDateText = "2026년 9월 2주차 위클리 에디션 (2026.09.08 ~ 09.14)";
+  const briefingDateText = "2026년 9월 최신호 (2026.09.16 기준)";
   DOM.briefingDate.textContent = briefingDateText;
 
   // Group by category for structured briefing
@@ -1078,21 +1078,21 @@ function openBriefingModal() {
     });
   });
 
-  const fullBriefing = `[AX 트렌드 리포트 | 2026년 9월 2주차 위클리 종합 브리핑]
+  const fullBriefing = `[AX 트렌드 리포트 | 2026년 9월 글로벌 핵심 아젠다 종합 브리핑]
 발행일자: ${briefingDateText}
 발행처: AX 트렌드 리포트 인텔리전스 데스크
 엄선 대상: 정론 경제·IT 유력지 (한국경제, ZDNet Korea) 및 글로벌 씽크탱크·컨설팅 (Bain & Company, PwC, Deloitte, Google DeepMind)
 총 분석 리포트: ${NEWS_DATA.length}건
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-■ WEEKLY 1분 핵심 총평 (Executive Takeaways)
-1. "도구의 도입에서 '일하는 방식의 재설계'로": 삼성전자 DX부문의 외부 생성형 AI 전면 도입과 사장단 AX 부트캠프, 한국앤컴퍼니의 전사 업무 봇 임베디드, 베인(Bain)의 AI 전환 변화관리 및 두려움 극복처럼 대기업들이 일회성 파일럿을 끝내고 '스마트 워크플레이스' 구축에 사활을 걸고 있습니다.
+■ 글로벌 AX 핵심 아젠다 총평 (Executive Takeaways)
+1. "도구의 도입에서 '일하는 방식의 재설계'로": 삼성전자 DX부문의 외부 생성형 AI 전면 도입과 사장단 AX 부트캠프, 한국앤컴퍼니의 전사 업무 봇 임베디드, 딜로이트의 15만 에이전트 일터 시나리오 및 베인(Bain)의 AI 전환 변화관리처럼 대기업들이 일회성 파일럿을 끝내고 '스마트 워크플레이스' 구축에 사활을 걸고 있습니다.
 2. "AI 네이티브 조직과 직무 리스킬링": SK AX와 글로벌 1위 HR 컨설팅 머서의 조직 모델 재설계, 2026 한경 AX 서밋 제언처럼 근로자의 역할을 '작업자'에서 'AI 오케스트레이터'로 리스킬링하는 조직이 10배의 생산성 격차를 만듭니다.
 3. "엔터프라이즈 에이전틱 B2B와 프런티어 멀티모달": 베인·PwC가 실증한 에이전틱 오케스트레이션과 AI 네이티브 엔터프라이즈, 구글 딥마인드(Project Astra)의 차세대 실시간 공간 멀티모달, 빅테크 수장들의 안전 가드레일이 결합되어 실질적 비즈니스 임팩트와 거버넌스가 기업 AI의 양대 축으로 안착했습니다.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ${catSectionsText}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-본 브리핑은 100% 공신력 있는 글로벌 기관의 원문 리포트만을 기반으로 구성된 주간 정례 인텔리전스입니다.`;
+본 브리핑은 100% 공신력 있는 글로벌 기관의 원문 리포트만을 기반으로 엄선된 전략 인텔리전스입니다.`;
 
   DOM.briefingContentText.textContent = fullBriefing;
   DOM.briefingContentText.innerText = fullBriefing;
@@ -1165,7 +1165,7 @@ function setupEventListeners() {
   if (DOM.copyBriefingBtn) {
     DOM.copyBriefingBtn.addEventListener("click", () => {
       const text = DOM.briefingContentText.textContent || DOM.briefingContentText.innerText || DOM.briefingContentText.value || "";
-      copyToClipboard(text, "위클리 종합 브리핑 전문이 복사되었습니다. 경영진 및 팀 슬랙에 공유하세요!");
+      copyToClipboard(text, "AX 전략 종합 브리핑 전문이 복사되었습니다. 경영진 및 팀 슬랙에 공유하세요!");
     });
   }
 
