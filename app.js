@@ -356,36 +356,35 @@ const FALLBACK_NEWS_DATA = [
   },
   {
     "id": "news-011",
-    "title": "[딜로이트] Tech Trends: Moving from Experimentation to Real Enterprise Impact",
-    "category": "enterprise",
-    "categoryLabel": "🏢 기업·엔터프라이즈 AX",
-    "badgeClass": "enterprise",
+    "title": "[딜로이트] AI 에이전트는 일터에 어떻게 공존하는가: 4대 미래 시나리오와 조직 거버넌스 (How will AI agents fit into the human workplace?)",
+    "category": "workplace",
+    "categoryLabel": "💼 일하는 방식 변화",
+    "badgeClass": "workplace",
     "sourceType": "consulting",
     "sourceOrg": "딜로이트 (Deloitte)",
-    "reportType": "Deloitte Insights 글로벌 테크 트렌드",
-    "source": "Deloitte Technology Practice",
-    "originalUrl": "https://www2.deloitte.com/us/en/insights/focus/tech-trends.html",
-    "time": "Deloitte 글로벌 테크 트렌드 리포트",
-    "publishedDate": "2025.12 (글로벌 정례)",
-    "timestamp": 1788700000000,
-    "readTime": "5분 소요",
-    "impactScore": 9.7,
+    "reportType": "Deloitte Insights 미래 일터 심층 시나리오",
+    "source": "Deloitte Center for Integrated Research & Human Capital",
+    "originalUrl": "https://www.deloitte.com/us/en/insights/topics/technology-management/ai-agents-human-workplace.html",
+    "time": "2026.09.10 (Deloitte Insights)",
+    "publishedDate": "2026.09.10",
+    "timestamp": 1789030800000,
+    "impactScore": 9.8,
     "impactTier": "전략 로드맵",
-    "views": 7410,
-    "whyMatters": "딜로이트의 연례 테크 트렌드 핵심 아젠다. PoC 수준의 일회성 실험을 완전히 끝내고 기간계 시스템과 코어 엔지니어링에 결합되어 실제 재무적 가치(ROI)를 입증하는 엔터프라이즈 AX 전환 프레임워크 제시.",
-    "summary": "딜로이트 Insights에 따르면 선도 기업들은 AI 파일럿 단계를 지나 레거시 현대화 및 핵심 업무 로직 자동화에 예산의 70%를 집중 재배치하고 있습니다.",
+    "whyMatters": "2028년 포춘 500대 기업의 평균 AI 에이전트 보유 수가 15만 개에 달할 것으로 전망되는 가운데, 딜로이트는 에이전트를 단순히 많이 배포하는 속도 경쟁보다 '동료 머신'과 '에이전틱 인프라' 등 일터 결합 방식에 맞춘 책임 거버넌스와 신뢰 구축이 기업의 승패를 결정짓는다고 강조.",
+    "summary": "딜로이트 리서치에 따르면 멀티 에이전트 확산기에는 에이전트 생산물 폭증으로 인한 인간 검토자의 '형식적 승인(고무도장)' 리스크를 차단하고, 최종 맥락 판단·공감 등 인간 고유의 역량을 중심으로 업무 프로세스를 재설계해야 합니다.",
     "fullSummary": [
-      "사내 IT 아키텍처와 기간계 ERP 시스템을 에이전트 친화적인 인터페이스로 현대화하는 것이 기업 생존의 핵심 과제.",
-      "검증되지 않은 산발적 생성형 AI PoC를 즉각 통폐합하고, 영업이익 개선이 확실한 핵심 실무 영역에 자원 집중.",
-      "데이터 정합성과 보안 거버넌스를 선제 확보한 조직일수록 파일럿에서 전사 확산까지의 전환 기간이 3배 단축."
+      "[15만 에이전트 시대와 4대 시나리오] 포춘 500대 기업 평균 15만 개 에이전트 도입 예상 속, 에이전트를 동료(Colleague)로 대우하는 모델, 인프라 자동화 레이어로 관리하는 모델 등 4가지 일터 미래 시나리오 제시.",
+      "['고무도장(Rubber Stamp)' 함정과 인지 과부하] 에이전트 산출물이 기하급수적으로 늘어날 때 인간의 품질 검토가 형식적 결재로 전락하는 거버넌스 붕괴를 경고하며 실질적 감시 체계 구축 촉구.",
+      "[인간 고유 가치의 재정의] 정형화된 프로세스를 에이전트가 흡수할수록 맥락 판단력, 윤리적 의사결정, 감성적 공감 등 인간의 소프트 스킬이 기업의 최고 차별화 자산으로 부상."
     ],
-    "actionPlan": "사내에서 산발적으로 진행 중인 PoC 과제를 즉시 일원화 감사하고, 명확한 ROI 산출이 가능한 코어 비즈니스 워크플로우부터 전환할 것.",
+    "actionPlan": "전사 에이전트 배포에 앞서 승인 프로세스의 '형식적 승인(고무도장)' 함정을 막는 책임 거버넌스를 수립하고, 중간 관리자를 '에이전트 오케스트레이터 및 품질 감사자'로 재교육할 것.",
     "tags": [
       "#딜로이트",
       "#Deloitte",
-      "#TechTrends",
-      "#엔터프라이즈AX",
-      "#비즈니스임팩트"
+      "#미래일터",
+      "#AIAgent",
+      "#일하는방식혁신",
+      "#거버넌스"
     ]
   },
   {
@@ -458,10 +457,10 @@ const FALLBACK_NEWS_DATA = [
   }
 ];
 
-// Trending keywords list (Curated from Samsung, SK, Bain, PwC, Hankyung, ZDNet, MK)
+// Trending keywords list (Curated from Samsung, SK, Deloitte, Bain, PwC, Hankyung, ZDNet)
 const TRENDING_KEYWORDS = [
-  '전체', '삼성전자 AX', '베인 변화관리', 'PwC AI 네이티브', '구글 프로젝트 아스트라',
-  '스마트 워크플레이스', 'SK 실리콘밸리', 'KT 얼라이언스', '온프레미스', '에이전틱 AI'
+  '전체', '딜로이트 미래 일터', '삼성전자 AX', '베인 변화관리', 'PwC AI 네이티브',
+  '스마트 워크플레이스', 'SK 실리콘밸리', 'KT 얼라이언스', '구글 아스트라', '에이전틱 AI'
 ];
 // Category metadata definitions (ordered by logical priority)
 const CATEGORY_DEFINITIONS = [
@@ -469,13 +468,13 @@ const CATEGORY_DEFINITIONS = [
     id: "enterprise", 
     label: "🏢 기업·엔터프라이즈 AX", 
     icon: "fa-building",
-    desc: "KT 플랫폼 연합, 메가존 일본 진출, 딜로이트 테크 트렌드 등 실전 B2B 엔터프라이즈 전환 및 ROI 전략" 
+    desc: "KT 플랫폼 연합, 메가존 일본 진출, PwC AI 네이티브 엔터프라이즈 등 실전 B2B 기업 전환 및 ROI 전략" 
   },
   { 
     id: "workplace", 
     label: "💼 일하는 방식 변화", 
     icon: "fa-briefcase",
-    desc: "차세대 고성능 추론 AI 서비스 가입 폭주와 지식 근로자의 실질 업무 생산성 혁신" 
+    desc: "딜로이트 AI 에이전트 일터 4대 시나리오, 삼성전자·한국앤컴퍼니 스마트 워크플레이스 등 지식 근로자 업무 방식 혁신" 
   },
   { 
     id: "frontier", 
@@ -613,7 +612,7 @@ function renderWeeklyCover() {
     headlineEl.innerHTML = `"도구의 도입을 넘어 <span class=\"ink-accent\">'일하는 방식의 재설계'</span>로: 대기업 Smart Workplace와 실행형 AX 전면화"`;
   }
   if (summaryEl) {
-    summaryEl.innerHTML = `<strong>삼성전자·SK·한국앤컴퍼니</strong>와 <strong>베인·PwC·한국경제·ZDNet</strong>이 공통 제시한 2026 기업 AI의 핵심 분기점: 단순 챗봇 툴을 사내에 배포하던 실험 단계를 완전히 끝내고, 전 임직원이 생성형 AI와 에이전트를 실무에 직접 투입하는 <strong>'스마트 워크플레이스'</strong> 구축과 조직 구조 자체를 AI 중심으로 뜯어고치는 <strong>'AI 네이티브(AI-Native) 오퍼레이팅 모델'</strong>로의 체질 전환이 본격화되고 있습니다.`;
+    summaryEl.innerHTML = `<strong>삼성전자·SK·한국앤컴퍼니</strong>와 <strong>딜로이트·베인·PwC·한국경제·ZDNet</strong>이 공통 제시한 2026 기업 AI의 핵심 분기점: 단순 챗봇 툴을 사내에 배포하던 실험 단계를 완전히 끝내고, 전 임직원이 생성형 AI와 에이전트를 실무에 직접 투입하는 <strong>'스마트 워크플레이스'</strong> 구축과 조직 구조 자체를 AI 중심으로 뜯어고치는 <strong>'AI 네이티브(AI-Native) 오퍼레이팅 모델'</strong>로의 체질 전환이 본격화되고 있습니다.`;
   }
 }
 
@@ -769,8 +768,8 @@ function getFilteredNews() {
   // Sort
   if (state.sortBy === "latest") {
     list.sort((a, b) => b.timestamp - a.timestamp);
-  } else if (state.sortBy === "views") {
-    list.sort((a, b) => b.views - a.views);
+  } else if (state.sortBy === "impact") {
+    list.sort((a, b) => b.impactScore - a.impactScore);
   }
 
   return list;
@@ -799,8 +798,6 @@ function renderCardHtml(item) {
         </div>
         <div class="card-time-info">
           <span class="card-date-badge" title="발행일자"><i class="fa-regular fa-calendar-days"></i> ${item.time}</span>
-          <span class="card-meta-dot">•</span>
-          <span class="card-read-badge"><i class="fa-regular fa-clock"></i> ${item.readTime}</span>
         </div>
       </div>
 
@@ -830,9 +827,6 @@ function renderCardHtml(item) {
         <div class="card-footer-meta">
           <span class="card-domain-badge">
             <i class="fa-solid fa-compass"></i> ${item.impactTier}
-          </span>
-          <span class="card-views-count">
-            <i class="fa-regular fa-eye"></i> ${item.views.toLocaleString()}회 조회
           </span>
         </div>
 
@@ -1056,7 +1050,6 @@ function openDetailModal(id) {
   if (!news) return;
 
   state.selectedNews = news;
-  news.views += 1; // Increment view count
 
   const isConsulting = news.sourceType === "consulting";
   const sourceIcon = isConsulting ? "fa-building-columns" : "fa-newspaper";
@@ -1064,7 +1057,7 @@ function openDetailModal(id) {
 
   DOM.modalCategory.textContent = news.categoryLabel;
   DOM.modalCategory.className = `modal-category ${news.badgeClass}`;
-  DOM.modalDate.innerHTML = `<span class="modal-date-chip"><i class="fa-regular fa-calendar-days"></i> 발행일자: <strong>${news.time}</strong></span> <span class="modal-meta-separator">•</span> <span class="modal-read-chip"><i class="fa-regular fa-clock"></i> ${news.readTime}</span>`;
+  DOM.modalDate.innerHTML = `<span class="modal-date-chip"><i class="fa-regular fa-calendar-days"></i> 발행일자: <strong>${news.time}</strong></span>`;
   if (DOM.modalDomainBadge) {
     DOM.modalDomainBadge.innerHTML = `<i class="fa-solid fa-compass"></i> ${news.impactTier}`;
   }
@@ -1087,8 +1080,6 @@ function openDetailModal(id) {
         <span><i class="fa-solid ${sourceIcon}"></i> 발행 기관: <strong>${news.sourceOrg}</strong></span>
         <span>·</span>
         <span>리포트 유형: <strong>${news.reportType}</strong></span>
-        <span>·</span>
-        <span>조회수: ${news.views.toLocaleString()}회</span>
       </div>
       <div class="trust-source-full">
         <i class="fa-solid fa-link"></i> 원문 퍼머링크: 
