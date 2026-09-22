@@ -14,3 +14,6 @@ Thumbs.db
 # Scratch & temporary logs
 *.log
 scratch/
+*_inspected.json
+scraped_*.json
+scratch_*.json
